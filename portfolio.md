@@ -5,8 +5,7 @@ permalink: /portfolio/
 <div class="gallery">
 	<h1 class="gallery-projects">Projects</h1>
 		<ul class="Projects">
-			<a href="/project/CubeGame/index.html"><li><img src="/img/DiscoverMystery.png"></li></a>
-			<figcaption>Mystery Game</figcaption>
+			<a href="/project/CubeGame/index.html"><li><img src="/img/DiscoverMystery.png"><figcaption>Mystery Game</figcaption></li></a>
 
 			<a href="/project/Roll:Square,Ball/index.html"><li><img src="/img/Animations.png"></li></a>
 			<figcaption>Animations</figcaption>
