@@ -1,0 +1,9 @@
+---
+title: About
+permalink: /about/
+---
+Self Expression
+
+<img src="/img/MyPic.jpeg">
+
+I want to welcome you to my blog “Unrestricted Expression".  My name is Charlie Jaime, I am twenty-four years old, and I’m an up-and-coming Web Designer/ Web Developer. I’ve always known that I wanted a career in technology, but it took couple of tries to find my true calling. My journey to a tech career began in my hometown of Los Angeles, CA, were I dabbled into many professions. I gave a shot at being an MMA Fighter (pun intended), Psychologist, Real Estate Agent, Male Model, and even pro soccer player (pun intended as well), in which I got as far a semi-pro for the Mexican League soccer team Necaxa, but thats a story for another time. Eventually, thanks to <a href="http://stumbleupon.com/">StumbleUpon.com</a> and <a href="http://code.org/">code.org</a> and their “Everyone Should Learn to Code” campaign, I was introduced to programming. I decided to build my programming foundations with the free classes provided by Codecademy. I then moved on to paying for actual programming lessons with Treehouse, where I found out more about Web Design/ Development. However, I soon realized that I needed more knowledge and resources to succeed in this career, so I decided it was necessary to apply to a coding bootcamp. After a couple of interview procedures with different bootcamps, I got accepted to ACLTC (Anyone Can Learn To Code). I had a great experience, and today I stand trying to break into this industry and landing a great job while working on several side projects. In the near future, I hope to leave a significant imprint not only in the tech world, but in many diverse areas of life that I like to dedicate myself to. I hope you enjoy accompanying me on this journey.

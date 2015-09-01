@@ -1,0 +1,82 @@
+/**********************
+General
+***********************/
+body{
+	background-color: rgba(0, 0, 0, 0.5);
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-flex-direction: row;
+}
+
+div button{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: gray;
+  text-decoration: none;
+}
+/**********************
+Page: Square
+***********************/
+#square{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	margin: 0;
+	margin-left: -15%;
+	background: -webkit-repeating-radial-gradient(65% 15%, circle, red, black);
+	transition-duration: 5s;
+	/*border-bottom: 2px solid #000;*/
+	/*-webkit-transform: rotate(2turn);*/
+}
+
+#square:active{
+	-webkit-transform: rotate(2turn);
+	transition-property: all;
+	transition-duration: 5s;
+	margin-left: 30%;
+	/*margin-top: 10%;*/
+	/*border-radius: 50%;*/
+	-webkit-transition-timing-linear: step-start;
+}
+
+/**********************
+Page: Logo
+***********************/
+#logo:hover{
+	-webkit-transform: rotate(2turn);
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+/**********************
+Page: Animation
+***********************/
+@-webkit-keyframes Gone{
+	from{
+		opacity: 1;
+	}
+
+	to{
+		opacity: 0;
+	}
+}
+
+#close, #open{
+	position: absolute;
+}
+
+#open{
+	opacity: 1;
+	-webkit-animation: Gone 1.5s;
+	-webkit-animation-direction: ease-out;	
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+
+
+
+
+
+
