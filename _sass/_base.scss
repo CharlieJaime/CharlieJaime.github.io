@@ -13,19 +13,12 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-
-.fade{
-    background-color: $background-color;
-    }
-
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background: url("/img/background.jpg") no-repeat;
-    background-size: cover;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }

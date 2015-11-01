@@ -2,16 +2,17 @@
  * Site header
  */
 .site-header {
-    border-top: 0px groove $grey-color-dark;
-    border-bottom: 15px groove $grey-color-dark;
+    font-family: "Garamond";
+    background-color: grey;
     min-height: 56px;
+    padding: 25px;
+    border-bottom: 3px solid #821E1E;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-family: "American Typewriter";
     font-size: 45px;
     line-height: 56px;
     letter-spacing: -1px;
@@ -20,7 +21,7 @@
 
     &,
     &:visited {
-        color: black;
+        color: white;
     }
 }
 
@@ -33,7 +34,9 @@
     }
 
     .page-link {
-        font-family: "American Typewriter";
+        background-color: white;
+        padding: 10px;
+        border-radius: 30%;
         font-size: 20px;
         color: $text-color;
         line-height: $base-line-height;
@@ -41,51 +44,6 @@
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        background: url("../concrete_seamless.png");
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
         }
     }
 }
@@ -98,6 +56,9 @@
 .site-footer {
     border-top: 3px solid $grey-color-dark;
     padding: $spacing-unit 0;
+    .text{
+        color: black;
+    }
 }
 
 .footer-heading {
@@ -171,10 +132,20 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    text-align: center;
+    .aboutMe, .post-content{
+        text-align: justify;
+    }
+}
+
+#mypic{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%; 
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .post-list {
@@ -195,7 +166,15 @@
     display: block;
     font-size: 24px;
 }
+.pagination, .rss-subscribe{
+        background-color: rgba(120,120,120, 0.8);
+    }
 
+.pagination, .pagination a, .rss-subscribe, .rss-subscribe a{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
 
 
 /**
@@ -246,14 +225,10 @@
 /**
  * Gallery
  */
-.Projects img{
-    hieght: 200px;
-    width: 200px;
+#vda img{
+    height: 120px;
+    width: 120px;
 } 
-.MocksLogos img{
-    hieght: 200px;
-    width: 200px;
-}
 
 .gallery{
   margin: 0;
@@ -261,8 +236,11 @@
 }
 
 .gallery li {
+  height: 120px;
+  width: 120px;  
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  margin-left: 5%;
+  margin-bottom: 10%;
   list-style: none;
+
 }
