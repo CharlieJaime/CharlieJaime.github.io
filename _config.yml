@@ -1,5 +1,5 @@
 # Site settings
-title: Unrestricted{Expression}
+title: Un{restricted}
 email: baroonie10@gmail.com
 contact: Contact Information
 description: > # this means to ignore newlines until "baseurl:"
@@ -9,7 +9,7 @@ twitter_username: cjbeowulf
 github_username:  cjbeowulf
 codepen_username: beowulf
 linkedin_username: charlie-jaime
-paginate: 3
+paginate: 4
 
 # Build settings
 markdown: kramdown
