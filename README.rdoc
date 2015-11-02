@@ -1,0 +1,7 @@
+==README
+Welcome to UnrestrictedExpression,
+
+here are you introducted to my all of my work. Once you enter my site you are welcomed to my blog, where I try to post two articles a week.
+One of those articles is strictedly reserved for a Web Development topic, in the other hand, the second article tends to be more free range
+in topics. In thy about page you are previewed to some of my background information and what I am trying to accomplish with this site. Last
+but not least my portfolio page, where most of my Web developemnt projects and designs are on display for people's interaction.  
