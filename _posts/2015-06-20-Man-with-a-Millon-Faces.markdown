@@ -26,7 +26,7 @@ I would like to say I have a great anecdote, or some quote on a fatherly advice 
 	<li>"Lesson Learned. No such word as ‘friend’.”- I do believe in friends but sometimes you can never be too careful/aware of the people you are dealing with. </li>
 	<li>"You’re not afraid of the dark, are you?”- This one just sounds cool! </li>
 	<li>Richard B Riddick: Even though he is a murderer and an escaped convict, his manly demeanor and self-reliance really struck a cord with me; he is someone I wanted to be like. </li>
-</ul>  
+</ul>
 
 <ul>
 	<strong>Hannibal Lecter Movies and Series</strong>
@@ -48,12 +48,12 @@ I would like to say I have a great anecdote, or some quote on a fatherly advice 
 	<strong>Bruce Lee Movies</strong>
 	<li>"The key to immortality is first living a life worth remembering”- I want to leave a mark in this life before I leave. A legacy to change people’s lives for the better.</li>
 	<li> “I wish neither to possess nor to be possessed.
-	I no longer covet paradise. 
-	More important, I no longer fear hell… 
+	I no longer covet paradise.
+	More important, I no longer fear hell…
 	The medicine for my suffering I had within me from the very beginning, but I did not take it.
-	My ailment came from within myself, but I did not observe it. 
+	My ailment came from within myself, but I did not observe it.
 	Until this moment
-	Now I see that I will never find the light unless, like the candle, I am my own fuel. 
+	Now I see that I will never find the light unless, like the candle, I am my own fuel.
 	Consuming myself.”- I have suffered with depression, anxiety, and suicidal tendencies most of my life. However, I became my own victim and lost my purpose in life. I’ve come to learn that YOU give your life meaning, YOU are your state of mind. Always keep moving forward.</li>
 </ul>
 

@@ -18,9 +18,12 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+}
+
+#homepageBody{
+  background-color: $background-color;
 }
 
 /**
@@ -63,7 +66,6 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
-    decoration: none;
 }
 
 li {
@@ -88,17 +90,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $text-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $text-color;
     }
 
     &:hover {
-        color: $text-color;
+        color: $brand-color;
         text-decoration: none;
-        text-shadow: -3px 0px 8px #821E1E; 
     }
 }
 
@@ -193,12 +194,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 23.5px;
+        height: 23.5px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $brand-color;
         }
     }
 }

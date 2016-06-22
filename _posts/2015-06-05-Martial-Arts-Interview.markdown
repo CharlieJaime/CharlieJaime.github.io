@@ -23,7 +23,7 @@ Mr. Parker has accumulated many accolades of the years. Here are just some of hi
 
 	"I got into coaching kind of by accident, like in training partners at one point in my life, I had to teach some friends enough to be able to continue training. I was just working so much I couldn't get time to train in a proper gym. I found on many levels I really enjoyed helping people. Seeing someone succeed at something that challenges them just thrills me. Being a part of that is more fulfilling than if I were to do it myself.”
 
-	<li>To you, what is a coach supposed to be to his/her students?</li> 
+	<li>To you, what is a coach supposed to be to his/her students?</li>
 
 	“A mentor. And uncle type. Someone you respect and has your best interest at heart even when you might not agree with their point of view."
 
@@ -31,7 +31,7 @@ Mr. Parker has accumulated many accolades of the years. Here are just some of hi
 
 	“Not sure how I feel honestly. If for some reason katas were invented and implemented, then of course, with some modification there's a place for them. The problem might be that their uses might be corrupted to make some people money at the expense of the original reason. That would have to change.”
 
-	<li>As for sparring, do you believe gear should be used, and if so, and how hard should teammates go at each other?</li> 
+	<li>As for sparring, do you believe gear should be used, and if so, and how hard should teammates go at each other?</li>
 
 	"I think at some points in training sparring has to be a test that will determine how you’ll do in a fight. It's the closest thing in training to an actual fight. The problem comes when a person can't do anything but go a hundred percent and risk injury every time. Not every fight is a hundred percent and neither should every training session. Trying new things to evolve your game means there will be a period in which you probably won't be any good, but you still need to attempt it live. If you get smashed every time you try something new, at what point do you stop trying new things?"
 
@@ -47,19 +47,19 @@ Mr. Parker has accumulated many accolades of the years. Here are just some of hi
 
 	“That's a tough one...I'm still working on it. In Thailand they put people to fight almost immediately, within 4 months of training. Shoot, even kids fight. I personally know a few guys that fought 5 times in a month when they were younger. The belief is you learn more in competition than when you train in the gym. The problem is... I'm in America (lol). This ain't Thailand. Guys in Thailand train 6 days a week, twice a day, for hours on end. How do I decide? A combination of factors, ranging from the students work ethic, attitude, skills and my generosity of opinion on those things will vary on any given day.”
 
-	<li>What is the one single trait a coach should have for successful coaching?</li> 
+	<li>What is the one single trait a coach should have for successful coaching?</li>
 
 	"I believe it needs to be patience but also adaptability. Patience is my biggest challenge, the skill I work on constantly as I feel I suck at it lol. But its an ability than can be work on, because if a rigid instructor can't change or evolve to be a better instructor, so how can he or she then inspire change in their students?”
 
-	<li>What do you think is the biggest mistake coaches make when teaching?</li> 
+	<li>What do you think is the biggest mistake coaches make when teaching?</li>
 
 	“Thinking their way is THE way. It's that rigidity again. You MUST believe in yourself, but not being open to the mistakes you make is fatal."
 
-	<li>What is your coaching philosophy?</li> 
+	<li>What is your coaching philosophy?</li>
 
 	"HA! That's too broad a question for me to answer. I don't just have one."
 
-	<li>What do you think separates the successful fighters from the rest?</li> 
+	<li>What do you think separates the successful fighters from the rest?</li>
 
 	“If you're talking in the fight, that I would say hard, correct work in training. Having the attitude that nothing else is worth more than that win; not the size, record, demeanor of your opponent. Nothing. That might also apply to the fighters that are successful outside the ring/ cage too. To change when it comes to family, lifestyle, etc.”
 </ol>

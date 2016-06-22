@@ -6,20 +6,28 @@
 
 
 // Our variables
-$base-font-family: "Gill Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   1.05em;
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #ESESES;
-$background-color: rgba(250, 250, 250, 0.59);
-$brand-color:      black;
+$text-color:       #8C489F;
+$background-color: #F1F0FF;
+$brand-color:      #443266;
 
-$grey-color:       #821E1E;
-$grey-color-light: lighten($grey-color, 10%);
-$grey-color-dark:  darken($grey-color, 0%);
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+/*
+Color scheme
+dark purple: #443266
+lightlight purple: C3C3E5
+light blue: F1F0FF
+mid purple: 8C489F
+*/
 
 // Width of the content area
 $content-width:    800px;

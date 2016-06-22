@@ -1,41 +1,37 @@
 # Site settings
-title: Un{restricted}
+title: Unø{Expression}
 email: baroonie10@gmail.com
-contact: Contact Information
 description: > # this means to ignore newlines until "baseurl:"
-  "Unrestricted Expression Blog" will be a broad platform, not just for the tech savvy, but really any and all subjects. I will be posting articles once or twice a week about psychology, fitness, sports, social conflicts/ideologies, topic requests, and many others. Please share with all your friends and family in all social medias if you find something interesting. Remember – “Knowledge is power”. And by all means, if you have a question, don’t hesitate to drop a message!
-url: "http://UnrestrictedExpression.com" # the base hostname & protocol for your site
+url: "unrestrictedexpression.me" # the base hostname & protocol for your site
 twitter_username: cjbeowulf
 github_username:  cjbeowulf
-codepen_username: beowulf
-linkedin_username: charlie-jaime
-paginate: 4
+codepen_username: cjbeowulf
+linkedin_username: charliejaime
 
 # Build settings
 markdown: kramdown
 permalink: /:title
 
-
-# #Default settings
+# Defaults
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type: "posts"
     values:
       layout: "post"
-      comments: true
-      category: Programming
+      category: "Programming"
       author: "Charlie Jaime"
+      comments: true
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
+      type: "pages"
     values:
       layout: "page"
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "drafts" # previously `post` in Jekyll 2.2.
+      type: "drafts"
     values:
-      layout: "post"
+      layout: "post "

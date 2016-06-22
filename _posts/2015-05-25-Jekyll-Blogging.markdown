@@ -7,7 +7,7 @@ I was first introduced to the Jekyll blogging platform during my stay in Chicago
 Programming, though an essential part of Web Development, doesn’t encompass everything that actually goes on behind the scenes. However, keep in mind that programming and Jekyll work hand in hand. Jekyll allows you to develop and experiment with development (coding) and layouts at almost any level of experience. It particularly helps out more in the Front-end Development aspect of programming, since its a static site generator and doesn’t deal with databases, allowing you a wide range of creativity with your HTML, CSS, and JavaScript code. You can see this code in action while you run your site, with a simple terminal command:
 
 {% highlight ruby %}
-“Jekyll server” or 
+“Jekyll server” or
 "Jekyll server —watch”(this will automatically update any changes made in your code and apply them to your site).
 {% endhighlight %}
 

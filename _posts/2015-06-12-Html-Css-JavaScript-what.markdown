@@ -26,7 +26,7 @@ Lastly and most importantly, turning simple plain text into HyperText. In other 
 
 Presentational
 
-CSS or Cascading Style Sheets has a diverse use in the creation of Websites. It can be used to bring your mockups to life, while adding styling, typography, or layouts to more than one page at a time.	
+CSS or Cascading Style Sheets has a diverse use in the creation of Websites. It can be used to bring your mockups to life, while adding styling, typography, or layouts to more than one page at a time.
 
 {% highlight ruby %}
 		body{

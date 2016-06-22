@@ -3,17 +3,18 @@
 
   {% include head.html %}
 
-  <body>
-
-    {% include header.html %}
+  <body id='homepageBody'>
 
     <div class="page-content">
+    <img id="homeimg" src="img/homepagestrip.png">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
+    {% include homepage_header.html %}
+
+    {% include homepage_footer.html %}
 
   </body>
 
