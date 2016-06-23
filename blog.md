@@ -6,7 +6,19 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-
+  <script>
+  (function() {
+    var cx = '014158406681112211463:zt1e121c_tq';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+  
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
