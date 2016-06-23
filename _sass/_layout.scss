@@ -291,6 +291,10 @@
     }
 }
 
+#searchbar{
+  float: right;
+  width: 50%;
+}
 
 /**
  * Portfolio
@@ -309,12 +313,10 @@ ul{
 }
 
 #hosted-projects li{
-  display: inline-block;
-  padding-right: 20px;
-  margin-bottom: 20px;
 }
 
 #codepen-embeds li{
+  margin-bottom: 20px;
 }
 
 

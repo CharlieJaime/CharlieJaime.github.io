@@ -6,18 +6,21 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-  <script>
-  (function() {
-    var cx = '014158406681112211463:zt1e121c_tq';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+  
+  <div id="searchbar">
+          <script>
+        (function() {
+        var cx = '014158406681112211463:zt1e121c_tq';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+  </div>
   
   <ul class="post-list">
     {% for post in site.posts %}
@@ -25,7 +28,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }} • {{ post.category }}</span>
         <p>
             {{post.excerpt}}
         </p>
