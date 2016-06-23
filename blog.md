@@ -14,6 +14,9 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <p>
+            {{post.excerpt}}
+        </p>
       </li>
     {% endfor %}
   </ul>

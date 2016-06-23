@@ -34,4 +34,4 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "drafts"
     values:
-      layout: "post "
+      layout: "post"

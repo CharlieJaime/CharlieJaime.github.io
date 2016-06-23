@@ -218,7 +218,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: lighten($text-color, 20%);
 }
 
 .post-link {
@@ -279,3 +279,34 @@
         }
     }
 }
+
+
+/**
+ * PortfolioA
+ */
+#projects-container,
+#codepens-container{
+  width: 100%;
+}
+
+.container-title{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+#hosted-projects li{
+  display: inline-block;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+#codepen-embeds li{
+}
+
+
+ /**
+ * About
+ */

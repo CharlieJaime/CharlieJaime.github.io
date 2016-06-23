@@ -4,7 +4,6 @@ date: 2015-11-03
 ---
 
 (Note: This is for the self-starter)
-
 You wanted to learn and become a Ruby on Rails Developer. Ruby on Rails is one of the easiest frameworks to work with (in my personal opinion) and it simply gets easier with repetition and practice. So without further a due, this is my personal guide to becoming proficient with Ruby on Rails.
 
 Beginning your Rails Journey
