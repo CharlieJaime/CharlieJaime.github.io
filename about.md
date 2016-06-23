@@ -1,8 +1,9 @@
 ---
 title: About
 ---
-
-<p>
-    
-</p>
-<!-- <img src="img/idPic.png"> -->
+<div id="about-container">
+    <img src="img/idPic.png">
+    <p>
+        As you can see I have great affinity for pizza
+    </p>
+</div>    
