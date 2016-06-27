@@ -5,7 +5,7 @@ title: Portfolio
     <h1 class="container-title">Projects</h1>
     <ul id="hosted-projects">
         <li>
-            
+            <a href="https://thinkcomics.herokuapp.com"><img src="img/ThinkComics.png"></a>
         </li>
         <li>
             
