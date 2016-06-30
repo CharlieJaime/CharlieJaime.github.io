@@ -60,7 +60,7 @@ title: Portfolio
     <ul id="codepen-embeds">
         <li>
             <!-- pongGame -->
-            <p data-height="353" data-theme-id="light" data-slug-hash="VjjzaO" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/VjjzaO/">PongGame</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="VjjzaO" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/VjjzaO/">PongGame</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async id='pong' src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">Recreate the traditional 1972 using HTML5 canvas tag</p>
@@ -68,7 +68,7 @@ title: Portfolio
         </li>
         <li>
             <!-- mysteryGame -->
-            <p data-height="353" data-theme-id="light" data-slug-hash="ECkve" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/ECkve/">Child Mystery Game</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="ECkve" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/ECkve/">Child Mystery Game</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">simpliy clickable hide n seek game mainly created using jQuery</p>
@@ -76,7 +76,7 @@ title: Portfolio
         </li>
         <li>
             <!-- musicBoxes -->
-            <p data-height="353" data-theme-id="light" data-slug-hash="bprpGr" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/bprpGr/">Music Boxes </a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="bprpGr" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/bprpGr/">Music Boxes </a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">Musical boxes just give them a hover. Click and hold box for extra animtion</p>
@@ -84,21 +84,21 @@ title: Portfolio
         </li>
         <li>
             <!-- cssAnimations -->
-            <p data-height="353" data-theme-id="light" data-slug-hash="dxFGt" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/dxFGt/">Transitions/Transforms/Animation</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="dxFGt" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/dxFGt/">Transitions/Transforms/Animation</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">A tri series of different effects you can create with CSS3 Transitions/Transforms/Animations</p>
             </div>
         </li>
         <li>
-            <p data-height="353" data-theme-id="light" data-slug-hash="MeyXKd" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/MeyXKd/">HTML5Player</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="MeyXKd" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/MeyXKd/">HTML5Player</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">Custom HTML5 Media player</p>
             </div>
         </li>
         <li>
-            <p data-height="353" data-theme-id="light" data-slug-hash="gPOrdv" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/gPOrdv/">Digital Clock</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="353" data-theme-id="light" data-slug-hash="gPOrdv" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/gPOrdv/">Digital Clock</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
                 <p class="description">Digital clock displaying time and date</p>
