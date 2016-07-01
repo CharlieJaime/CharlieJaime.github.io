@@ -13,7 +13,7 @@
   @include media-query($on-palm){
     // text-align: center;
     // vertical-align: middle;
-    margin-left: 10%;
+    margin-left: 8%;
   }
 }
 #homepageheader .site-nav{
@@ -231,6 +231,7 @@
 
 .page-heading {
     font-size: 42px;
+    color: $brand-color
 }
 
 .post-list {
@@ -283,7 +284,6 @@
 
     h2 {
         font-size: 32px;
-
         @include media-query($on-laptop) {
             font-size: 28px;
         }
@@ -291,7 +291,7 @@
 
     h3 {
         font-size: 26px;
-
+        color: $brand-color;
         @include media-query($on-laptop) {
             font-size: 22px;
         }
