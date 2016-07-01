@@ -17,7 +17,7 @@ Break overall task into smaller digestible bits. This will give you two importan
 
 This is quite simple don’t multitask. Its scientific proven that are attention span has decreased over the years. So now imagine if you add youtube, twitter, texting to the mix, result: crappy work with shitty outcomes. Stay focus and diligent.
 
-• Consistency</strong>
+• <strong>Consistency</strong>
 
 The creator of habits is consistency. Repeat, repeat, and repeat some more, this might seem mundane, however, dedicated habits make even the hardest task seem like child’s play.
 
