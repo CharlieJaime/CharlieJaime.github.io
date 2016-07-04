@@ -5,15 +5,12 @@
   margin-bottom: 60px;
 }
 
-#homepageheader .site-title{
+#homepageTitle{
   max-height: 0 auto;
   font-size: 55px;
   text-decoration: none;
-  // testhomepage
   @include media-query($on-palm){
-    // text-align: center;
-    // vertical-align: middle;
-    margin-left: 8%;
+    display: none;
   }
 }
 #homepageheader .site-nav{
@@ -29,7 +26,7 @@
   text-decoration: none;
   box-shadow: 3px 4px 2px 1px $text-color;
 }
-// testhomepage
+
 #homeimg{
   width: 100%;
   height: 600px;
@@ -81,7 +78,7 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 25px;
         }
     }
 
@@ -92,7 +89,7 @@
         background-color: $background-color;
         border: 2px solid $brand-color;
         border-radius: 5px;
-        text-align: right;
+        text-align: center;
 
         .menu-icon {
             display: block;
@@ -331,14 +328,20 @@ ul{
   list-style: none;
 }
 
-#hosted-projects li{
+.imgs{
+  height: 450px;
+  width: 100%;
+  @include media-query($on-palm){
+    height: 300px;
+  }
 }
 
 .description-container{
   margin-top: 0;
-  background: darken(#F1F0FF, 3%);
+  background: darken(#F1F0FF, 5%);
   width: 100%;
   height: 60px;
+  margin-bottom: 20px;
 
   .description{
     text-align: center;
