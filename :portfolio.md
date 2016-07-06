@@ -16,13 +16,13 @@ title: Portfolio
                 <p class="description">Ruby on Rails App: Create Online Docs and acces them anywhere.</p>
             </div>
         </li>
-        <!-- <li>
-            <a href="#"><img src="#"></a>
+        <li>
+            <a href="https://microoblog.herokuapp.com"><img src="img/Microblog.png"></a>
             <div class="description-container">
-                <p class="description"></p>
+                <p class="description">Ruby on Rails App: Write posts everyone can read and comment on, while still keeping control of your content.</p>
             </div>
         </li>
-        <li>
+        <!-- <li>
             <a href="#"><img src="#"></a>
             <div class="description-container">
                 <p class="description"></p>
