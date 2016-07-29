@@ -94,7 +94,7 @@ title: Portfolio
             <p data-height="353" data-theme-id="0" data-slug-hash="BzPyrv" data-default-tab="result" data-user="cjbeowulf" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/cjbeowulf/pen/BzPyrv/">Brick Breaker Game</a> by Charlie Jaime (<a href="http://codepen.io/cjbeowulf">@cjbeowulf</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <div class="description-container">
-                <p class="description">Custom HTML5 Media player</p>
+                <p class="description">Re-built classic Brick Breaker Game</p>
             </div>
         </li>
         <li>
