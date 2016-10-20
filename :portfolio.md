@@ -28,13 +28,13 @@ title: Portfolio
                 <p class="description">RoR app(Desktop View): You can store digital or scanned files of traditional comic book art.</p>
             </div>
         </li>
-        <!-- <li>
-            <a href="#"><img src="#"></a>
+        <li>
+            <a href="https://tasklly.herokuapp.com"><img src="img/Taskly.png"></a>
             <div class="description-container">
-                <p class="description"></p>
+                <p class="description">RoR app: Manage daily tasks, whe completed simply checkoff and trash</p>
             </div>
         </li>
-        <li>
+        <!-- <li>
             <a href="#"><img src="#"></a>
             <div class="description-container">
                 <p class="description"></p>
