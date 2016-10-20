@@ -7,25 +7,25 @@ title: Portfolio
         <li>
             <a href="https://portabledoc.herokuapp.com"><img class="imgs" src="img/PortableDoc.png"></a>
             <div class="description-container">
-                <p class="description">Ruby on Rails App(Desktop View): Create Online Docs and acces them anywhere.</p>
+                <p class="description">RoR app(Desktop View): Create Online Docs and acces them anywhere.</p>
             </div>
         </li>
         <li>
             <a href="https://microoblog.herokuapp.com"><img src="img/Microblog.png"></a>
             <div class="description-container">
-                <p class="description">Ruby on Rails App(Desktop View): Write posts everyone can read and comment on, while still keeping control of your content.</p>
+                <p class="description">RoR app(Desktop View): Write posts everyone can read and comment on, while still keeping control of your content.</p>
             </div>
         </li>
         <li>
             <a href="https://photoclouds.herokuapp.com"><img src="img/photocloud.png"></a>
             <div class="description-container">
-                <p class="description">Ruby on Rails App: Upload your images and share them with other users. </p>
+                <p class="description">RoR app: Upload your images and share them with other users. </p>
             </div>
         </li>
         <li>
             <a href="https://thinkcomics.herokuapp.com"><img class="imgs" src="img/ThinkComics.png"></a>
             <div class="description-container">
-                <p class="description">Ruby on Rails App(Desktop View): You can store digital or scanned files of traditional comic book art.</p>
+                <p class="description">RoR app(Desktop View): You can store digital or scanned files of traditional comic book art.</p>
             </div>
         </li>
         <!-- <li>
