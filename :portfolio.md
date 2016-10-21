@@ -31,7 +31,7 @@ title: Portfolio
         <li>
             <a href="https://tasklly.herokuapp.com"><img src="img/Taskly.png"></a>
             <div class="description-container">
-                <p class="description">RoR app: Manage daily tasks, whe completed simply checkoff and trash</p>
+                <p class="description">RoR app: Manage your daily tasks simply add them on taskly once they are done check'em off and trash</p>
             </div>
         </li>
         <!-- <li>
