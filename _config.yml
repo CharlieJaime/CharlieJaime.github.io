@@ -1,8 +1,8 @@
 # Site settings
-title: Unø{Expression}
+title: Charlie Jaime | Web Developer
 email: baroonie10@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-url: "unrestrictedexpression.me" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: cjbeowulf
 github_username:  cjbeowulf
 codepen_username: cjbeowulf
