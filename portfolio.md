@@ -17,9 +17,9 @@ title: Portfolio
             </div>
         </li>
         <li>
-            <a href="https://photoclouds.herokuapp.com"><img src="img/photocloud.png"></a>
+            <a href="https://combatnews.herokuapp.com"><img src="img/combatnews.png"></a>
             <div class="description-container">
-                <p class="description">RoR app: Upload your images and share them with other users. </p>
+                <p class="description">RoR app: Combat news forum post topic on boxing, muay thai, mma, etc. Discuss away in the comment sections. </p>
             </div>
         </li>
         <li>
