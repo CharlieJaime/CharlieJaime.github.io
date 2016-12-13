@@ -94,7 +94,6 @@ a {
     }
 
     &:hover {
-        color: $brand-color;
         text-decoration: none;
     }
 }
@@ -190,12 +189,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 50px;
-        height: 35px;
+        width: 150px;
+        height: 100px;
         vertical-align: middle;
 
         path {
-            fill: $brand-color;
+            fill: $text-color;
         }
     }
 }

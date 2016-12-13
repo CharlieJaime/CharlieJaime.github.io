@@ -11,21 +11,20 @@ layout: default
 </head>
 <body>
   <div id="home-container">
-    <img src="img/Logo.png">
+    <img id="home-logo" src="img/Logo.png">
     <h1>Charlie Jaime</h1>
     <h3>Designer | Developer</h3>
   </div>
   <div id="about-container">
-    <h2>About</h2>
+    <h2 class="page-heading">About</h2>
     <img id="idPic" src="img/idPic.png">
     <p id="about-p">
         Hello I’m Batman!!(*Michael Keaton voice), Welcome to UnrestrictedExpression.me<br><br>
         My real name is Charlie Jaime, I’m a young Web Developer with an entrepreneurship mentality and drive. Im currently building my personal brand within the tech industry while simultaneously working on future endeavors, mainly creating, run, and maintaining a successful tech startup. Which will take a lot of handwork and dedication, but all great minds need small breaks. I have a great affinity for comics, drawing comic art, mixed martial arts training, soccer, and as you can see cheesy pepperoni pizza…COWABUNGA!!!! However, my great passion is Web Development, I specialize in HTML5, CSS/SASS, JavaScript(&jQuery Library), Ruby/Ruby on Rails(PostgreSQL Database), and Jekyll static sites. Im in the process of learning Node.js, Gulp.js, Angular.js., and Express.js to name a few. I also dabble in Wed Design, I mainly use Adobe Photoshop, Adobe Illustrator, and my Wacom tablet to produce logos, page assets, and sample wireframes. So if you're ever in need of your friendly neighborhood cyberhero feel free to contact on any of my social platforms my clicking on the icons below. Ill be waiting for the Bat-signal.
     </p>
   </div>
-  </div>
   <div id="contact-container">
-    <h2>Contact</h2>
+    <h2 class="page-heading">Contact</h2>
     <div class="white-container">
       <ul class="social-media-list">
           <li>
@@ -85,7 +84,7 @@ layout: default
   </div>
   <div id="projects-container">
     <div id="live-projects-container">
-      <h1 class="container-title">Projects</h1>
+      <h2 class="page-heading">Projects</h2>
       <ul id="hosted-projects">
         <li class="img-container">
           <a href="https://portabledoc.herokuapp.com"><img class="imgs" src="img/PortableDoc.png"></a>
@@ -121,7 +120,7 @@ layout: default
     </div>
 
     <div id="codepens-container">
-      <h1 class="container-title">Codepens</h1>
+      <h2 class="page-heading">Codepens</h2>
       <ul id="codepen-embeds">
         <li class="img-container">
           <!-- pongGame -->
@@ -173,46 +172,29 @@ layout: default
     </div>
   </div>
   <div id="posts-container">
-    <div class="home">
-      <h1 class="page-heading">Posts</h1>
-      <div id="searchbar">
-              <script>
-            (function() {
-            var cx = '014158406681112211463:zt1e121c_tq';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
-      </div>
+    <h2 class="page-heading">Posts</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }} • {{ post.category }}</span>
+          <p>
+            {{post.excerpt}}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }} • {{ post.category }}</span>
-            <p>
-                {{post.excerpt}}
-            </p>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <p class="rss-subscribe">subscribe
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-            via RSS
-            <span class="icon icon--rss">
-                <svg viewBox="0 0 512 512"><path d="M201.8 347.2c0 20.3-16.5 36.8-36.8 36.8 -20.3 0-36.8-16.5-36.8-36.8s16.5-36.8 36.8-36.8C185.3 310.4 201.8 326.8 201.8 347.2zM128.2 204.7v54.5c68.5 0.7 124 56.3 124.7 124.7h54.5C306.7 285.3 226.9 205.4 128.2 204.7zM128.2 166.6c57.9 0.3 112.3 22.9 153.2 63.9 41 41 63.7 95.5 63.9 153.5h54.5c-0.3-149.9-121.7-271.4-271.6-271.9V166.6L128.2 166.6z"/></svg>
-            </span>
-        </a>
-      </p>
-    </div>
+    <p class="rss-subscribe">subscribe
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+        via RSS
+        <span class="icon icon--rss">
+          <svg viewBox="0 0 512 512"><path d="M201.8 347.2c0 20.3-16.5 36.8-36.8 36.8 -20.3 0-36.8-16.5-36.8-36.8s16.5-36.8 36.8-36.8C185.3 310.4 201.8 326.8 201.8 347.2zM128.2 204.7v54.5c68.5 0.7 124 56.3 124.7 124.7h54.5C306.7 285.3 226.9 205.4 128.2 204.7zM128.2 166.6c57.9 0.3 112.3 22.9 153.2 63.9 41 41 63.7 95.5 63.9 153.5h54.5c-0.3-149.9-121.7-271.4-271.6-271.9V166.6L128.2 166.6z"/></svg>
+        </span>
+      </a>
+    </p>
   </div>
 </body>
 </html>
