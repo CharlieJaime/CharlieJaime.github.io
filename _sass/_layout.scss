@@ -11,6 +11,10 @@ General
   color: $text-color;
 }
 
+#blog-container{
+  padding-bottom: 2%;
+}
+
 #navbar,
 #homeheader,
 .description-container,
@@ -31,6 +35,28 @@ General
 .site-footer {
     color: $text-color;
     text-align: center;
+}
+
+.site-footer .social-media-list{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0 auto;
+}
+
+.site-footer .social-media-list li{
+  margin-left: 0;
+}
+.site-footer .social-media-list .icon {
+
+    > svg {
+        width: 50px;
+        height: 50px;
+        // border-radius: 35%;
+
+        path {
+            fill: $text-color;
+        }
+    }
 }
 
 .borders{
@@ -130,10 +156,10 @@ Contact
 .social-media-list li{
   display: inline-block;
   margin-left: 5%;
+}
 
-  #email-icon{
-    margin-left: 0;
-  }
+#email-icon{
+  margin-left: 0;
 }
 
 .icon {
