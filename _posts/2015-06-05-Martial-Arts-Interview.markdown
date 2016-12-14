@@ -5,7 +5,7 @@ Catergory: Sports
 ---
 I've trained MMA (Mixed Martial Arts) for approximately 4 years now. I started my training out of curiosity because of the UFC and thanks to a personal friend of mine (thanks Marco) and also Bruce Lee, I mean its  BRUCE LEE MAN! (enough said). My friend took me to a small gym in Pasadena named “Kenpofit Martial Arts Academy” where it all started, and the rest as they say, is history. Over time I moved to various gyms, such as PKG (Punch, Kick, Grapple) Training Center and my current gym HQ Brand (formally known as “Tapout Training Center") in Downtown, LA. I have met from some of the worst to some of the best coaches in my gym transitions. However, there are only been three coaches that have truly affected how I train (physically/emotionally) and my overall view on marital arts: Ian Harris, James Parker, and Deon Montgomery (don’t mind the order, it is not a ranking). This week I had the chance to conduct a short interview with one of the three wise men, Muay Thai/ Boxing Coach James Parker a.k.a "James Poidog”. Here is a brief interview discussing overall coaching, styles, students, mental aspects of a great Muay Thai mind.
 
-<img src="/img/PoidogMT.png"/>
+<img src="/img/articles/PoidogMT.png"/>
 <figcaption>Check out <a href="https://www.facebook.com/poidog1?fref=ts"><u>Poidog Muay Thai</u></a>, contains great training content.</figcaption>
 <br>
 

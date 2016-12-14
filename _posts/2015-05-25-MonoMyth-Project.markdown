@@ -11,7 +11,7 @@ As I was watching a TED-Ed called “What Makes a Hero?” by Matthew Winkler
 
 I got the idea for my book. The video discusses how most literary heroes were and are still created today using the same old age MonoMyth Template or “Hero’s Journey”.
 
-<img src="/img/MonoMythCircle.png">
+<img src="/img/articles/MonoMythCircle.png">
 
 Worlds:
 
