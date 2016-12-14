@@ -179,22 +179,3 @@ pre {
         clear: both;
     }
 }
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 150px;
-        height: 100px;
-        vertical-align: middle;
-
-        path {
-            fill: $text-color;
-        }
-    }
-}
