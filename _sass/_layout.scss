@@ -129,7 +129,7 @@ Navbar
     display: none;
   }
 
-  #navbar:hover #navbar-links{
+  #navbar: #navbar-links{
     display: block;
   }
 }
@@ -332,7 +332,7 @@ Projects
   }
 
   .img-container{
-    width: 300px;
+    width: 250px;
   }
 
   .img-container:hover{
@@ -343,7 +343,7 @@ Projects
 
   .img-container img{
     height: 150;
-    width: 300px;
+    width: 250px;
   }
 
 }
