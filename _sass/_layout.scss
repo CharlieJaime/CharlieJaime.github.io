@@ -331,11 +331,21 @@ Projects
     margin-left: 0;
   }
 
+  .img-container{
+    width: 300px;
+  }
+
   .img-container:hover{
-  transform: scale(1.00);
-  transition-property: all;
-  transition-duration: 1s;
-}
+    transform: scale(1.00);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+
+  .img-container img{
+    height: 150;
+    width: 300px;
+  }
+
 }
 
 
