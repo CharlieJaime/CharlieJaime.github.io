@@ -100,12 +100,11 @@ Navbar
   vertical-align: middle;
 }
 
-#navbar-links span:hover{
+#navbar-links .links:hover{
   color: $background-color;
   background-color: $text-color;
   border-radius: 5%;
 }
-
 
 @include media-query($on-palm){
   #nav-logo{
@@ -331,6 +330,12 @@ Projects
   #hosted-projects li{
     margin-left: 0;
   }
+
+  .img-container:hover{
+  transform: scale(1.00);
+  transition-property: all;
+  transition-duration: 1s;
+}
 }
 
 
@@ -350,6 +355,11 @@ Posts
   padding-right: 10px;
 }
 
+@include media-query($on-palm){
+  .post{
+    padding-top: 20%;
+  }
+}
 
 .post-list {
     padding-top: 3%;
@@ -373,7 +383,7 @@ Posts
 }
 
 .post-link:hover{
-  text-shadow: 1px 1px 2px $text-color;
+  text-shadow: 2px 2px 3px darken($text-color, 40%);
 }
 
 .post-header {
@@ -393,8 +403,13 @@ Posts
 }
 
 .post-content {
-    color: $brand-color;
+    color: $background-color;
     margin-bottom: $spacing-unit;
+
+    a{
+      color: $background-color;
+    }
+
     h2 {
         font-size: 32px;
         @include media-query($on-laptop) {
