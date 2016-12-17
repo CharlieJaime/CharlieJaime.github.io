@@ -129,7 +129,7 @@ Navbar
     display: none;
   }
 
-  #navbar: #navbar-links{
+  #navbar:hover #navbar-links{
     display: block;
   }
 }
@@ -156,8 +156,8 @@ Homepage
 
 @include media-query($on-palm){
     #home-logo{
-      height: 350px;
-      width: 350px;
+      height: 250px;
+      width: 250px;
       padding-top: 15%;
     }
   }
