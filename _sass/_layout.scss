@@ -5,9 +5,7 @@ General
 // spacing bewteen divs
 #home-container,
 #about-container,
-#contact-container,
-#projects-container,
-#blog-container{
+#contact-container{
   padding-top: 12%;
   padding-bottom: 12%;
   color: $text-color;
@@ -15,6 +13,13 @@ General
 
 #blog-container{
   padding-bottom: 2%;
+}
+
+#projects-container,
+#blog-container{
+  padding-top: 4%;
+  padding-bottom: 12%;
+  color: $text-color;
 }
 
 // Fonts: size alignment
