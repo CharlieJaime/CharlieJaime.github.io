@@ -82,7 +82,7 @@ Navbar
 #navbar{
   width: 100%;
   position: fixed;
-  background-color: black;
+  background-color: $brand-color;
   text-align: center;
   border-bottom: 0.5px solid $text-color;
   font-size: 1.5em;
@@ -103,6 +103,10 @@ Navbar
   display: inline-block;
   list-style: none;
   vertical-align: middle;
+}
+
+.links{
+  color: $background-color;
 }
 
 #navbar-links .links:hover{
@@ -241,7 +245,7 @@ Contact
         height: 100px;
 
         path {
-            fill: $background-color;
+            fill: $brand-color;
         }
     }
     // media query
@@ -256,11 +260,11 @@ Contact
 .icon {
 
     > svg:hover {
-        transform: scale(1.10);
+        transform: scale(1.05);
         transition-property: all;
         transition-duration: 1s;
         background-color: $background-color;
-        border-radius: 35%;
+        border-radius: 20%;
 
         path {
             fill: $text-color;
@@ -287,6 +291,11 @@ Projects
   width: 100%;
   height: 650px;
   overflow-y: scroll;
+  background-color: white;
+}
+
+div.borders{
+  background-color: white;
 }
 
 #hosted-projects{
