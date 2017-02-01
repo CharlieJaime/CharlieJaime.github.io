@@ -200,9 +200,9 @@ About
 
 #idpic{
   float: right;
-  border-radius: 100%;
-  height: 250px;
-  width: 250px;
+  border-radius: 10%;
+  height: 350px;
+  width: 290px;
 }
 
 #about-p{
@@ -215,10 +215,10 @@ About
   #about-p{
     width: 100%;
     text-align: justify;
-    clear: both
+    // clear: both;
   }
 
-  #idpic{
+  #picDiv{
     text-align: center;
     margin: 0 auto;
   }
