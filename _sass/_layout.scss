@@ -97,6 +97,7 @@ Navbar
   display: inline-block;
   list-style: none;
   padding-top: 0.7%;
+  text-decoration: none;
 }
 
 .links{
@@ -107,9 +108,10 @@ Navbar
   color: darken($background-color, 10%);
 }
 
-#navbar-links .links:hover{
+.links:hover{
   color: darken($background-color, 10%);
   border-radius: 5%;
+  text-decoration: none;
 }
 
 @include media-query($on-palm){
@@ -378,9 +380,12 @@ Posts
 .post-link {
     display: block;
     font-size: 26px;
+    color: $text-color;
 }
 
 .post-link:hover{
+  color: $text-color;
+  text-decoration: none;
   text-shadow: 2px 2px 3px $brand-color;
 }
 
