@@ -80,12 +80,12 @@ Navbar
 }
 
 #nav-logo{
-  height: 35px;
-  width: 35px;
   float: left;
   margin-left: 1%;
   vertical-align: middle;
   padding-top: 0.6%;
+  font-size: 1.2em;
+  color: white;
 }
 
 #menu{
@@ -115,6 +115,7 @@ Navbar
   #nav-logo{
     float: none;
     margin: 0 auto;
+    font-size: 1.5em;
   }
 
   #menu{
@@ -174,6 +175,11 @@ Homepage
       padding-bottom: 20%;
       background-image: none;
       background-color: $text-color;
+    }
+
+    #name,
+    #homeheader{
+      display: none;
     }
   }
 
