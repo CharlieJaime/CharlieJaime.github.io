@@ -41,19 +41,16 @@ General
 }
 
 // Scrollbar
-#live-projects-container::-webkit-scrollbar-track,
 #posts-container::-webkit-scrollbar-track{
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   background-color: $background-color;
 }
 
-#live-projects-container::-webkit-scrollbar,
 #posts-container::-webkit-scrollbar{
   width: 12px;
   background-color: $text-color;
 }
 
-#live-projects-container::-webkit-scrollbar-thumb,
 #posts-container::-webkit-scrollbar-thumb{
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
@@ -76,9 +73,9 @@ Navbar
 #navbar{
   width: 100%;
   position: fixed;
-  background-color: $text-color;
+  background: rgba(76, 84, 103, 0.9);
   text-align: center;
-  border-bottom: 0.5px solid $text-color;
+  border-bottom: 5px double $brand-color;
   font-size: 1.5em;
 }
 
@@ -150,8 +147,9 @@ Homepage
   width: 100%;
   height: 100%;
   text-align: center;
-  background-image: url('/img/site/workspace.jpg');
-  background-size: cover;
+  // background-image: url('/img/site/workspace.jpg');
+  // background-size: cover;
+  background-color: $text-color;
 
   h1{
     padding-top: 13%;
@@ -174,6 +172,8 @@ Homepage
 
     #home-container{
       padding-bottom: 20%;
+      background-image: none;
+      background-color: $text-color;
     }
   }
 
@@ -301,82 +301,37 @@ Contact
 /********
 Projects
 ********/
-#live-projects-container{
-  width: 100%;
-  height: 650px;
-  overflow-y: scroll;
-  background-color: lighten($background-color, 10%);
+.live-projects-container{
+  display: flex;
 }
 
-div.borders{
-  background-color: lighten($background-color, 10%);
-}
-
-#hosted-projects{
-  list-style-type: none;
-  display: inline-block;
-  padding-top: 3%;
-}
-
-#hosted-projects li{
-  float: left;
-  margin-left: 6%;
-  margin-bottom: 5%;
+#first-LPC{
+  padding-top: 10px;
 }
 
 .img-container{
-  text-align: center;
-  font-size: 0.71em;
-  background-color: lighten($background-color, 90%);
-  color: $text-color;
-  width: 400px;
-  padding-bottom: 10px;
-  border: 0.5px solid $brand-color;
-  border-radius: 5%;
+  flex-grow: 1;
+  margin-right: 10px;
+  background-color: $brand-color;
+  margin-bottom: 10px;
+
+  img{
+    border-radius: 1%;
+    border-bottom: 3px solid $brand-color;
+  }
+
+  .description{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
-.img-container:hover{
-  transition-property: all;
-  transition-duration: 1.5s;
-  font-size: 0.75em;
-}
-
-
-.img-container img{
-  height: 250px;
-  width: 400px;
-  padding-bottom: 10px;
-  border-radius: 5%;
-}
-
-.description{
-  width: 100%;
-  margin: 0 auto;
-}
-
-// Projects: Media query
 @include media-query($on-palm){
-  #hosted-projects li{
-    margin-left: 0;
+  .live-projects-container{
+    flex-wrap: wrap;
   }
-
-  .img-container{
-    width: 250px;
-  }
-
-  .img-container:hover{
-    transform: scale(1.00);
-    transition-property: all;
-    transition-duration: 1s;
-  }
-
-  .img-container img{
-    height: 150;
-    width: 250px;
-  }
-
 }
-
 
 /********
 Posts
