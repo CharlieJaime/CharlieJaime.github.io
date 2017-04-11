@@ -97,7 +97,6 @@ Navbar
   display: inline-block;
   list-style: none;
   padding-top: 0.7%;
-  text-decoration: none;
 }
 
 .links{
@@ -108,10 +107,9 @@ Navbar
   color: darken($background-color, 10%);
 }
 
-.links:hover{
+#navbar-links .links:hover{
   color: darken($background-color, 10%);
   border-radius: 5%;
-  text-decoration: none;
 }
 
 @include media-query($on-palm){
@@ -305,7 +303,10 @@ Contact
 Projects
 ********/
 .live-projects-container{
-  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
 }
 
 #first-LPC{
@@ -314,7 +315,10 @@ Projects
 
 .img-container{
   font-size: 1em;
-  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-grow: 1;
+  -o-flex-grow: 1;
   margin: 0 15px 20px 15px;
   background-color: white;
   border: 2px solid $background-color;
@@ -334,7 +338,10 @@ Projects
 
 @include media-query($on-palm){
   .live-projects-container{
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
   }
 }
 
