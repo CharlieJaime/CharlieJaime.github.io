@@ -312,7 +312,7 @@ Projects
 .img-container{
   flex-grow: 1;
   margin-right: 10px;
-  background-color: $brand-color;
+  background-color: darken($background-color, 5%);
   margin-bottom: 10px;
 
   img{
