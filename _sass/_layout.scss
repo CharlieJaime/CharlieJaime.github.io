@@ -120,9 +120,7 @@ select{
 
 @include media-query($on-palm){
   #nav-logo{
-    float: none;
-    margin: 0 auto;
-    font-size: 1.5em;
+    display: none;
   }
 
   select{
