@@ -2,10 +2,10 @@
 title: Charlie Jaime Designer | Developer
 email: baroonie10@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-url: "cjbeowulf.github.io" # the base hostname & protocol for your site
+url: "charliejaime.github.io" # the base hostname & protocol for your site
 twitter_username: cjbeowulf
-github_username:  cjbeowulf
-codepen_username: cjbeowulf
+github_username:  charliejaime
+codepen_username: charliejaime
 linkedin_username: charliejaime
 treehouse_username: charliejaime
 # Build settings
