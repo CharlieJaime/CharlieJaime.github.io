@@ -1,10 +1,25 @@
 projects:
 -  title: PortableDocs
-   image: img/projects/Microblog.png
    link: https://portabledoc.herokuapp.com
+   image: img/projects/Microblog.png
    description: Create Online Docs and access them anywhere
 
 -  title: MicroBlog
-   image: img/projects/PortableDoc.png
    link: https://microoblog.herokuapp.com
+   image: img/projects/PortableDoc.png
    description: Write and share posts on any topic and converse in the comments
+
+-  title: ThinkComics
+   link: https://thinkcomics.herokuapp.com
+   image: img/projects/ThinkComics.png
+   description: Store your digital or scanned files of traditional comic book art
+
+-  title: Taskly
+   link: https://tasklly.herokuapp.com
+   image: img/projects/Taskly.png
+   description: Manage your daily tasks once you've compeleted 'em, trash'em
+
+-  title: CombatNews
+   link: https://combatnews.herokuapp.com
+   image: img/projects/combatnews.png
+   description: Post and converse about martial arts

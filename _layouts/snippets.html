@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1 class="post-title">{{ page.title | escape }}</h1>
+<!-- Template to load from data -->
+<ul class=”job-listing">
+  {% for snippet in site.data.snippets.snippets %}
+    <a href=”{{ snippet.url | prepend: site.baseurl }}”>
+      <li>
+        <div>
+            <img src="{{ snippet.image }}">
+            <a href="{{ snippet.link }}">{{ snippet.title }}</a>
+            <p>{{ snippet.description }}</p>
+        </div>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

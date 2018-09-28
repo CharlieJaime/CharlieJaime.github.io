@@ -1,0 +1,30 @@
+snippets:
+-  title: Pong Game
+   link: http://codepen.io/cjbeowulf/full/VjjzaO/
+   image: img/projects/ponggame.png
+   description: Pong, classic game rebuild.
+
+-  title: Mystery Game
+   link: http://codepen.io/cjbeowulf/full/ECkve/
+   image: img/projects/mysterygame.png
+   description: Game of clickable boxes. Find the hidden spy.
+
+-  title: Brick Breaker Game
+   link: http://codepen.io/cjbeowulf/full/BzPyrv
+   image: img/projects/brickbreaker.png
+   description: Brick Breaker, classic game rebuild.
+
+-  title: jQuery ToDo App
+   link: http://codepen.io/cjbeowulf/full/zwrwGY/
+   image: img/projects/jQueryTodo.png
+   description: Simple ToDo application using jquery and jquery user interface.
+
+-  title: Toggle Switch Animations
+   link: http://codepen.io/cjbeowulf/full/zrOmjv/
+   image: img/projects/toggleswitch.png
+   description: Cool toggle switch transitions and transforms using checkboxes.
+
+-  title: Earth's Orbit
+   link: http://codepen.io/cjbeowulf/full/gWPMpq/
+   image: img/projects/planetOrbit.png
+   description: Fun continuious animations of earth orbiting aroud the sun.
