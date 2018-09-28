@@ -1,0 +1,7 @@
+<nav id="navbar">
+  <ul>
+    {% for navlink in site.data.navlinks.navlinks %}
+      <li><a href="{{ navlink.id }}">{{ navlink.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

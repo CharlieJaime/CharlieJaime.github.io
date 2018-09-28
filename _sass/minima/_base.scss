@@ -1,6 +1,10 @@
-/**
- * Basic styling
- */
+a{
+  text-decoration: none;
+}
+
+/******
+Jekyll Styles
+******/
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   -webkit-text-size-adjust: 100%;
@@ -14,23 +18,11 @@ body {
   flex-direction: column;
 }
 
-/**
- * `main` element
- */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
-
-/**
- * Blockquotes
- */
+//Blockquote
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
@@ -44,9 +36,7 @@ blockquote {
   }
 }
 
-/**
- * Code formatting
- */
+//Code formatting
 pre,
 code {
   @include relative-font-size(0.9375);
@@ -72,9 +62,7 @@ pre {
 
 
 
-/**
- * Wrapper
- */
+//Wrapper
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -92,42 +80,14 @@ pre {
   }
 }
 
-
-/**
- * Clearfix
- */
+//Clearfix
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
-
-/**
- * Icons
- */
-
-// .svg-icon {
-//     width: 16px;
-//     height: 16px;
-//     display: inline-block;
-//     fill: #{$grey-color};
-//     padding-right: 5px;
-//     vertical-align: text-top;
-// }
-
-// .social-media-list {
-//   li + li {
-//     padding-top: 5px;
-//   }
-// }
-
-
-
-/**
- * Tables
- */
+//Tables
 table {
   margin-bottom: $spacing-unit;
   width: 100%;

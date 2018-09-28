@@ -1,0 +1,15 @@
+navlinks:
+-  title: CJ
+   id: \#homeContainer
+
+-  title: Projects
+   id: \#projectsContainer
+
+-  title: Snippets
+   id: \#snippetsContainer
+
+-  title: About
+   id: \#aboutContainer
+
+-  title: Posts
+   id: \#postsContainer
