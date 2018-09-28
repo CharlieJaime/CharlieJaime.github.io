@@ -23,11 +23,15 @@ twitter_username: cjbeowulf
 github_username:  charliejaime
 codepen_username: charliejaime
 linkedin_username: charliejaime
+disqus:
+  shortname: cjbeowulfgithubio
+# rss: rss
 
 # Build settings
 markdown: kramdown
 permalink: /:title
 theme: minima
+# google_analytics: UA-NNNNNNNN-N
 
 # Defaults
 defaults:
