@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<ul class=”job-listing">
+  {% for project in site.data.projects.projects %}
+    <a href=”{{ project.url | prepend: site.baseurl }}”>
+      <li>
+        <div>
+            <img src="{{ project.image }}">
+            <a href="{{ project.link }}">{{ project.title }}</a>
+            <p>{{ project.description }}</p>
+        </div>
+      </li>
+    </a>
+  {% endfor %}
+</ul>
