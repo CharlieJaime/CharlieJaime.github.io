@@ -1,4 +1,0 @@
----
-layout: snippets
-title: Snippets
----
