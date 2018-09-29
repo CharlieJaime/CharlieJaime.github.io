@@ -8,30 +8,69 @@ a{
 ul{
   list-style: none;
 }
+
+#homeContainer,
+#projectsContainer,
+#snippetsContainer,
+#aboutContainer,
+#postsContainer{
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+@include media-query($on-palm){
+  #projectsContainer,
+  #snippetsContainer,
+  #aboutContainer,
+  #postsContainer{
+    padding-top: 35%;
+  }
+}
+
+
 /********
 Header Styles
 ********/
 #homeContainer{
-  width: 100%;
   height: 100%;
   text-align: center;
+  background-image: url('/img/site/laptop.jpg');
+  background-size: cover;
+
+  h1{
+    padding-top: 13%;
+    font-size: 4em;
+  }
+
+  h2{
+    font-size: 1.2em;
+  }
+
 }
 
 #navbar{
   width: 100%;
   text-align: center;
   position: fixed;
+  margin: -10%;
+  // padding: -20%;
 }
 
 #navbar ul li{
   display: inline-block;
+  padding-left: 10%;
+}
+
+#nav-icon{
+  width: 40px;
+  height: 40px;
+  margin-bottom: -20%;
 }
 
 #banner{
   width: 100%;
   clear: both;
-  text-align: center;
-  background-color: red;
+  // text-align: center;
 }
 
 /********
@@ -47,75 +86,75 @@ Snippets Styles
 /********
 About Styles
 ********/
-// #aboutContainer .icon {
-//   > svg{
-//       width: 100px;
-//       height: 100px;
+#aboutContainer .icon {
+  > svg{
+      width: 100px;
+      height: 100px;
 
-//     path{
-//       fill: black;
-//     }
-//   }
-// }
+    path{
+      fill: black;
+    }
+  }
+}
 
-// #aboutContainer .icon {
-//     > svg:hover {
-//         transform: scale(1.06);
-//         transition-property: all;
-//         transition-duration: 1s;
-//         background-color: black;
-//         border-radius: 20%;
+#aboutContainer .icon {
+    > svg:hover {
+        transform: scale(1.06);
+        transition-property: all;
+        transition-duration: 1s;
+        background-color: black;
+        border-radius: 20%;
 
-//         path {
-//             fill: lighten(white, 10%);
-//         }
-//     }
-// }
+        path {
+            fill: lighten(white, 10%);
+        }
+    }
+}
 
 /********
 Posts Styles
 ********/
-// .post-header {
-//   margin-bottom: $spacing-unit;
-// }
+.post-header {
+  margin-bottom: $spacing-unit;
+}
 
-// .post-title {
-//   @include relative-font-size(2.625);
-//   letter-spacing: -1px;
-//   line-height: 1;
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
 
-//   @include media-query($on-laptop) {
-//     @include relative-font-size(2.25);
-//   }
-// }
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
 
-// .post-content {
-//   margin-bottom: $spacing-unit;
+.post-content {
+  margin-bottom: $spacing-unit;
 
-//   h2 {
-//     @include relative-font-size(2);
+  h2 {
+    @include relative-font-size(2);
 
-//     @include media-query($on-laptop) {
-//       @include relative-font-size(1.75);
-//     }
-//   }
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
 
-//   h3 {
-//     @include relative-font-size(1.625);
+  h3 {
+    @include relative-font-size(1.625);
 
-//     @include media-query($on-laptop) {
-//       @include relative-font-size(1.375);
-//     }
-//   }
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
 
-//   h4 {
-//     @include relative-font-size(1.25);
+  h4 {
+    @include relative-font-size(1.25);
 
-//     @include media-query($on-laptop) {
-//       @include relative-font-size(1.125);
-//     }
-//   }
-// }
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
 
 /********
 Footer Styles
