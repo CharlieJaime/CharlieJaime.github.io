@@ -14,8 +14,8 @@ ul{
 #snippetsContainer,
 #aboutContainer,
 #postsContainer{
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 @include media-query($on-palm){
@@ -32,8 +32,8 @@ ul{
 Header Styles
 ********/
 #homeContainer{
-  height: 100%;
-  text-align: center;
+  height: 100vh;
+  // text-align: center;
   background-image: url('/img/site/laptop.jpg');
   background-size: cover;
 
@@ -70,7 +70,10 @@ Header Styles
 #banner{
   width: 100%;
   clear: both;
-  // text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /********
@@ -86,7 +89,16 @@ Snippets Styles
 /********
 About Styles
 ********/
-#aboutContainer .icon {
+#socialList{
+  text-align: center;
+}
+
+#socialList li{
+  display: inline-block;
+  padding-left: 10%;
+}
+
+#socialList .icon {
   > svg{
       width: 100px;
       height: 100px;
@@ -97,7 +109,7 @@ About Styles
   }
 }
 
-#aboutContainer .icon {
+#socialList .icon {
     > svg:hover {
         transform: scale(1.06);
         transition-property: all;
