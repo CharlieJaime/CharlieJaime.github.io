@@ -9,7 +9,6 @@ ul{
   list-style: none;
 }
 
-#homeContainer,
 #projectsContainer,
 #snippetsContainer,
 #aboutContainer,
@@ -33,9 +32,11 @@ Header Styles
 ********/
 #homeContainer{
   height: 100vh;
-  // text-align: center;
-  background-image: url('/img/site/laptop.jpg');
+  text-align: center;
+  background-image: url('/img/site/unsplash1.jpg');
+  // background-image: url('/img/site/unsplash4.jpg');
   background-size: cover;
+  // padding-bottom: 4%;
 
   h1{
     padding-top: 13%;
@@ -52,8 +53,6 @@ Header Styles
   width: 100%;
   text-align: center;
   position: fixed;
-  margin: -10%;
-  // padding: -20%;
 }
 
 #navbar ul li{
@@ -130,15 +129,15 @@ Posts Styles
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
+// .post-title {
+//   @include relative-font-size(2.625);
+//   letter-spacing: -1px;
+//   line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
+//   @include media-query($on-laptop) {
+//     @include relative-font-size(2.25);
+//   }
+// }
 
 .post-content {
   margin-bottom: $spacing-unit;
