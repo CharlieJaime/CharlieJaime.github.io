@@ -1,6 +1,6 @@
-// /********
-// General Styles
-// ********/
+/********
+General Styles
+********/
 a{
   text-decoration: none;
 }
@@ -8,115 +8,114 @@ a{
 ul{
   list-style: none;
 }
+/********
+Header Styles
+********/
+#homeContainer{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#navbar{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+}
+
+#navbar ul li{
+  display: inline-block;
+}
+
+#banner{
+  width: 100%;
+  clear: both;
+  text-align: center;
+  background-color: red;
+}
+
+/********
+Projects Styles
+********/
+
+
+/********
+Snippets Styles
+********/
+
 
 /********
 About Styles
 ********/
-#aboutContainer .icon {
-  > svg{
-      width: 100px;
-      height: 100px;
+// #aboutContainer .icon {
+//   > svg{
+//       width: 100px;
+//       height: 100px;
 
-    path{
-      fill: black;
-    }
-  }
-}
+//     path{
+//       fill: black;
+//     }
+//   }
+// }
 
-#aboutContainer .icon {
-    > svg:hover {
-        transform: scale(1.06);
-        transition-property: all;
-        transition-duration: 1s;
-        background-color: black;
-        border-radius: 20%;
+// #aboutContainer .icon {
+//     > svg:hover {
+//         transform: scale(1.06);
+//         transition-property: all;
+//         transition-duration: 1s;
+//         background-color: black;
+//         border-radius: 20%;
 
-        path {
-            fill: lighten(white, 10%);
-        }
-    }
-}
+//         path {
+//             fill: lighten(white, 10%);
+//         }
+//     }
+// }
 
-/**
- * Page content
- */
-.page-content {
-  padding: $spacing-unit 0;
-  flex: 1;
-}
+/********
+Posts Styles
+********/
+// .post-header {
+//   margin-bottom: $spacing-unit;
+// }
 
-.page-heading {
-  @include relative-font-size(2);
-}
+// .post-title {
+//   @include relative-font-size(2.625);
+//   letter-spacing: -1px;
+//   line-height: 1;
 
-.post-list-heading {
-  @include relative-font-size(1.75);
-}
+//   @include media-query($on-laptop) {
+//     @include relative-font-size(2.25);
+//   }
+// }
 
-.post-list {
-  margin-left: 0;
-  list-style: none;
+// .post-content {
+//   margin-bottom: $spacing-unit;
 
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
+//   h2 {
+//     @include relative-font-size(2);
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
+//     @include media-query($on-laptop) {
+//       @include relative-font-size(1.75);
+//     }
+//   }
 
-.post-link {
-  display: block;
-  @include relative-font-size(1.5);
-}
+//   h3 {
+//     @include relative-font-size(1.625);
 
+//     @include media-query($on-laptop) {
+//       @include relative-font-size(1.375);
+//     }
+//   }
 
-/**
- * Posts
- */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
+//   h4 {
+//     @include relative-font-size(1.25);
 
-.post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
-
-.post-content {
-  margin-bottom: $spacing-unit;
-
-  h2 {
-    @include relative-font-size(2);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
-    }
-  }
-}
+//     @include media-query($on-laptop) {
+//       @include relative-font-size(1.125);
+//     }
+//   }
+// }
 
 /********
 Footer Styles
