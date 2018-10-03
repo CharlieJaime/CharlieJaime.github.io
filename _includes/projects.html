@@ -3,17 +3,15 @@
     <h2>Projects</h2>
     <ul class="data-listing">
       {% for project in site.data.projects.projects %}
-        <div class="imgContainer">
-          <a href="{{ project.link }}">
-            <li>
-              <div>
-                <img src="{{ project.image }}">
-                <h4>{{ project.title }}</h4>
-                <p>{{ project.description }}</p>
-              </div>
-            </li>
-          </a>
-        </div>
+        <a href="{{ project.link }}">
+          <li>
+            <div class="imgContainer">
+              <img src="{{ project.image }}">
+              <h4>{{ project.title }}</h4>
+              <p>{{ project.description }}</p>
+            </div>
+          </li>
+        </a>
       {% endfor %}
     </ul>
   </div>

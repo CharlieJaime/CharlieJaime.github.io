@@ -35,12 +35,13 @@ ul{
 }
 
 .imgContainer{
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 400px;
+  max-height: 500px;
+  padding-left: 5%;
 
   img{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -113,9 +114,20 @@ Snippets Styles
 /********
 About Styles
 ********/
+// #aboutContainer{
+//   #aboutContent{
+//     width: 75%;
+//     margin: 0 auto;
+//   }
+// }
+
+#socialContainer{
+ text-align: center;
+}
+
 #socialList li{
   display: inline-block;
-  padding-left: 10%;
+  padding: 5%;
   text-align: center;
 }
 
@@ -147,9 +159,13 @@ About Styles
 /********
 Posts Styles
 ********/
+// #postsContainer{
+//   width: 75%;
+//   margin: 0 auto;
+// }
+
 #innerPostsContainer{
   overflow: scroll;
-  width: 100%;
   height: 500px;
 }
 
