@@ -31,7 +31,8 @@ disqus:
 markdown: kramdown
 permalink: /:title
 theme: minima
-# google_analytics: UA-NNNNNNNN-N
+google_analytics: UA-NNNNNNNN-N
+show_excerpts: true
 
 # Defaults
 defaults:

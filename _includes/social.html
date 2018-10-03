@@ -1,14 +1,16 @@
-<ul id="socialList">
-  {% for contact in site.data.contacts.contacts %}
-  <li>
-    <a href="{{ contact.link }}">
-      <span class="{{ contact.class }}" id="{{ contact.id }}">
-        <svg viewBox="{{ contact.viewbox }}">
-          <path d="{{ contact.pathD }}"/>
-        </svg>
-      </span>
-    </a>
-    <figcaption>{{ contact.title }}</figcaption>
-  </li>
-  {% endfor %}
-</ul>
+<div id="socialContainer">
+  <ul id="socialList">
+    {% for contact in site.data.contacts.contacts %}
+    <li>
+      <a href="{{ contact.link }}">
+        <span class="{{ contact.class }}" id="{{ contact.id }}">
+          <svg viewBox="{{ contact.viewbox }}">
+            <path d="{{ contact.pathD }}"/>
+          </svg>
+        </span>
+      </a>
+      <figcaption>{{ contact.title }}</figcaption>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

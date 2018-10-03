@@ -1,16 +1,19 @@
 <main id="snippetsContainer">
   <div class="listContainer">
+    <h2>Snippets</h2>
     <ul class="data-listing">
       {% for snippet in site.data.snippets.snippets %}
-        <a href="{{ snippet.link }}">
-          <li>
-            <div>
-              <!-- <img src="{{ snippet.image }}"> -->
-              <h4>{{ snippet.title }}</h4>
-              <p>{{ snippet.description }}</p>
-            </div>
-          </li>
-        </a>
+        <div class="imgContainer">
+          <a href="{{ snippet.link }}">
+            <li>
+              <div>
+                <!-- <img src="{{ snippet.image }}"> -->
+                <h4>{{ snippet.title }}</h4>
+                <p>{{ snippet.description }}</p>
+              </div>
+            </li>
+          </a>
+        </div>
       {% endfor %}
     </ul>
   </div>

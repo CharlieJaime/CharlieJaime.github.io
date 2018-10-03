@@ -2,7 +2,7 @@ projects:
 -  title: PortableDocs
    link: https://portabledoc.herokuapp.com
    image: img/projects/Microblog.png
-   description: Create Online Docs and access them anywhere
+   description: Create documents online and access them anywhere
 
 -  title: MicroBlog
    link: https://microoblog.herokuapp.com
