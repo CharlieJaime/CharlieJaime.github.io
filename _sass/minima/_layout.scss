@@ -79,6 +79,10 @@ Header Styles
   text-align: center;
   position: fixed;
   border-bottom: 3px solid $lb;
+
+  a{
+    font-size: 1.2em;
+  }
 }
 
 #navbar ul li{
@@ -114,13 +118,6 @@ Snippets Styles
 /********
 About Styles
 ********/
-// #aboutContainer{
-//   #aboutContent{
-//     width: 75%;
-//     margin: 0 auto;
-//   }
-// }
-
 #socialContainer{
  text-align: center;
 }
@@ -140,6 +137,13 @@ About Styles
       fill: $lb;
     }
   }
+
+  @include media-query($on-palm){
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
 }
 
 #socialList .icon {
@@ -147,11 +151,11 @@ About Styles
         transform: scale(1.06);
         transition-property: all;
         transition-duration: 1s;
-        background-color: $lg;
+        background-color: $lb;
         border-radius: 20%;
 
         path {
-            fill: lighten($db, 10%);
+            fill: lighten(white, 10%);
         }
     }
 }
@@ -159,14 +163,10 @@ About Styles
 /********
 Posts Styles
 ********/
-// #postsContainer{
-//   width: 75%;
-//   margin: 0 auto;
-// }
-
 #innerPostsContainer{
   overflow: scroll;
   height: 500px;
+  border-bottom: 2px solid $lb;
 }
 
 body > main > div > article{
@@ -183,60 +183,73 @@ body > main > div > article{
   margin-bottom: $spacing-unit;
 }
 
-// .post-title {
-//   @include relative-font-size(2.625);
-//   letter-spacing: -1px;
-//   line-height: 1;
+.post-list{
+  h3{
+    font-family: $base-font-family;
+  }
+}
 
-//   @include media-query($on-laptop) {
-//     @include relative-font-size(2.25);
-//   }
-// }
+.post-content {
+  font-family: $sub-font-family;
+  margin-bottom: $spacing-unit;
 
-// .post-content {
-//   margin-bottom: $spacing-unit;
+  h2 {
+    @include relative-font-size(2);
 
-//   h2 {
-//     @include relative-font-size(2);
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
 
-//     @include media-query($on-laptop) {
-//       @include relative-font-size(1.75);
-//     }
-//   }
+  h3 {
+    @include relative-font-size(1.625);
 
-//   h3 {
-//     // @include relative-font-size(1.625);
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
 
-//     @include media-query($on-laptop) {
-//       // @include relative-font-size(1.375);
-//     }
-//   }
+  h4 {
+    @include relative-font-size(1.25);
 
-//   h4 {
-//     @include relative-font-size(1.25);
-
-//     @include media-query($on-laptop) {
-//       @include relative-font-size(1.125);
-//     }
-//   }
-// }
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
 
 /********
 Footer Styles
 ********/
+// #footerContainer > *{
+//   width: 100%;
+//   height: 40px;
+// }
+
+.footerList{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footerList li{
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 #footerContainer .icon {
     > svg {
         width: 50px;
         height: 50px;
 
         path {
-            fill: black;
+            fill: $lb;
         }
     }
 
     > svg:hover{
       path{
-        fill: lighten(grey, 10%);
+        fill: darken($db, 10%);
       }
     }
 }

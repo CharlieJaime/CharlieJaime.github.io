@@ -5,12 +5,31 @@ body{
   color: $dg;
 }
 
+#projectsContainer,
+#snippetsContainer,
+#postsContainer{
+  a{
+    color: $dg;
+  }
+  a:visited{
+    color: $dg;
+  }
+  a:hover{
+    color: $lb;
+  }
+}
 /******
 Header colors
 ******/
 #navbar{
-  // background-color: rgba(241, 238, 232, 0.9);
-  background-color: $lg;
+  background-color: rgba(241, 238, 232, 0.8);
+  // background-color: $lg;
+  a:visited{
+    color: $dg;
+  }
+  a:hover{
+    color: $lb;
+  }
 }
 
 #banner{
@@ -25,7 +44,6 @@ Projects colors
 /******
 Snippets colors
 ******/
-#snippetsContainer{}
 
 /******
 About colors
@@ -35,7 +53,9 @@ About colors
 /******
 Posts colors
 ******/
-
+.post-list p{
+  color: $mg;
+}
 
 /******
 Footer colors
