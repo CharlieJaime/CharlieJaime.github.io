@@ -104,8 +104,8 @@ Header Styles
 }
 
 #home-icon{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-bottom: -20%;
 }
 
@@ -118,9 +118,37 @@ Header Styles
   align-items: center;
 }
 
+hr{display: none;}
+
+#arrows svg{
+  display: none;
+}
+
 @include media-query($on-palm){
   #banner{
     padding-top: 15%;
+
+    h1{
+      margin-bottom: -10px;
+    }
+
+    h2{
+      padding-bottom: 20%;
+    }
+
+    hr{
+      display: block;
+      width: 50%;
+      border: 2px solid $lg;
+    }
+
+    #arrows svg{
+      padding: 4%;
+      display: block;
+      height: 50px;
+      width: 50px;
+      fill: $dg;
+    }
   }
 }
 

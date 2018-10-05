@@ -39,47 +39,13 @@ Header colors
 
 #banner{
   color: white;
-
-  hr{display: none;}
-
-  #arrows svg{
-    display: none;
-  }
 }
 
 @include media-query($on-palm){
   #banner{
     color: $dg;
-
-    h1{
-      margin-bottom: -10px;
-    }
-
-    h2{
-      padding-bottom: 20%;
-    }
-
-    hr{
-      display: block;
-      width: 50%;
-      border: 2px solid $lg;
-    }
-
-    #arrows svg{
-      // margin-top: 90%;
-      padding: 4%;
-      display: block;
-      height: 50px;
-      width: 50px;
-      fill: $dg;
-    }
   }
 }
-
-/******
-Projects colors
-******/
-
 
 /******
 Snippets colors
@@ -94,16 +60,8 @@ button:hover{
 }
 
 /******
-About colors
-******/
-
-/******
 Posts colors
 ******/
 .post-list p{
   color: $mg;
 }
-
-/******
-Footer colors
-******/
