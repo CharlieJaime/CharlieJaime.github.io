@@ -26,7 +26,7 @@ body{
 /******
 Header colors
 ******/
-#navbar{
+.navbar{
   background-color: rgba(241, 238, 232, 0.8);
   // background-color: $lg;
   a:visited{
@@ -43,7 +43,7 @@ Header colors
 
 @include media-query($on-palm){
   #banner{
-    color: $mg;
+    color: $db;
   }
 }
 

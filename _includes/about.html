@@ -4,6 +4,18 @@
       <p>My real name is Charlie Jaime, I’m a young Web Designer/Developer with an entrepreneurship mentality and drive. Im currently building my personal brand within the tech industry while simultaneously working on future endeavors, mainly creating, run, and maintaining a successful tech startup. Which will take a lot of hardwork and dedication, but all great minds need small breaks. I have a great affinity for comics, drawing comic art, mixed martial arts training, soccer, and cheesy pepperoni pizza…COWABUNGA!!!! However, my great passion is Web Development|Design, I specialize in HTML5, CSS/SASS, JavaScript(&jQuery Library), Ruby/Ruby on Rails(PostgreSQL Database),React-Js, and Jekyll static sites. Im in the process of learning Node.js, Gulp.js, Angular.js., and Express.js to name a few. I also dabble in Wed Design, I mainly use Adobe Photoshop, Adobe Illustrator, Sketchbook Pro and Wacom tablet to produce logos, page assets, and sample wireframes. So if you're ever in need of your friendly neighborhood cyberhero feel free to contact on any of my social platforms my clicking on the icons below. Ill be waiting for the Code-signal.</p>
   </div>
 
-  {% include social.html %}
-
+  <div id="socialContainer">
+    <ul id="socialList">
+      {% for contact in site.data.contacts.contacts %}
+      <li>
+        <a href="{{ contact.link }}" class="{{ contact.id }}">
+          <span class="{{ contact.class }}">
+            {{contact.svg}}
+          </span>
+        </a>
+        <figcaption>{{ contact.title }}</figcaption>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </main>

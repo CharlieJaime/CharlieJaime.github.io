@@ -1,4 +1,10 @@
 $(document).ready(function($) {
+  $(".resume-icon").attr('target', '_blank');
+  $(".codepen-icon").attr('target', '_blank');
+  $(".linkedin-icon").attr('target', '_blank');
+  $(".github-icon").attr('target', '_blank');
+
+
   $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior

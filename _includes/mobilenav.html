@@ -1,19 +1,13 @@
-<nav id="navbar">
-  <ul id="navbarmobile">
+<nav class="navbar" id="mobileNav">
+  <ul>
+    {% for sitelink in site.data.sitelinks.sitelinks %}
     <li>
-      <a href="\#homeContainer">
-        <span class="icon" id="nav-icon">
-          <svg id="nav-icon" viewBox="0 0 128 128"><path d="M18,91V36.5c0-3.3,2.7-5.5,6-5.5h80c3.3,0,6,2.2,6,5.5V91" fill="lightgrey"/><path d="M12,92.5v1c0,2.2,1.8,4.5,4,4.5h96c2.2,0,4-2.3,4-4.5v-1c0-1.1-0.9-1.5-2-1.5H14C12.9,91,12,91.4,12,92.5z" fill="lightgrey"/><rect fill="black" height="50" width="82" x="23" y="36"/><path d="M76,94H52c-1.1,0-2-1.4-2-2.5V91h28v0.5C78,92.6,77.1,94,76,94z" fill="grey"/></svg>
+      <a href="{{sitelink.address}}">
+        <span class="{{sitelink.class}}" id="{{sitelink.id}}">
+          {{sitelink.svg}}
         </span>
       </a>
     </li>
-
-    <li>
-      <a href="\#projectsContainer">
-        <span class="icon" id="projects-icon">
-          <svg class="icon" viewBox="0 0 48 48"><path d="M45,0H3A3,3,0,0,0,0,3V35a3,3,0,0,0,3,3H16v4.28l-2.32.77A1,1,0,0,0,13,44v2H11v2H28V46H15V44.72L17.16,44H28V42H18V38H28V36H3a1,1,0,0,1-1-1V29H28V27H2V3A1,1,0,0,1,3,2H45a1,1,0,0,1,1,1V18h2V3A3,3,0,0,0,45,0Z"/><path d="M46,20H32a2,2,0,0,0-2,2V46a2,2,0,0,0,2,2H46a2,2,0,0,0,2-2V22A2,2,0,0,0,46,20Zm0,26H32V43H46Zm0-5H32V27H46Zm0-16H32V22H46Z"/></svg>
-        </span>
-      </a>
-    </li>
+    {% endfor %}
   </ul>
 </nav>

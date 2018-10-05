@@ -2,11 +2,9 @@
   <ul class="footerList">
     {% for contact in site.data.contacts.contacts %}
     <li>
-      <a href="{{ contact.link }}">
-        <span class="{{ contact.class }}" id="{{ contact.id }}">
-          <svg viewBox="{{ contact.viewbox }}">
-            <path d="{{ contact.pathD }}"/>
-          </svg>
+      <a href="{{ contact.link }}" class="{{ contact.id }}">
+        <span class="{{ contact.class }}">
+          {{contact.svg}}
         </span>
       </a>
     </li>
