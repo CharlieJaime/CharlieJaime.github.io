@@ -74,6 +74,7 @@ Header Styles
 
 @include media-query($on-palm){
   #homeContainer{
+    height: 100vh;
     background-image: none;
     background-size: none;
   }
