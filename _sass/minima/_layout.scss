@@ -22,7 +22,7 @@ ul{
   #snippetsContainer,
   #aboutContainer,
   #postsContainer{
-    padding-top: 35%;
+    padding-top: 20%;
   }
 }
 
@@ -72,6 +72,13 @@ Header Styles
 
 }
 
+@include media-query($on-palm){
+  #homeContainer{
+    background-image: none;
+    background-size: none;
+  }
+}
+
 .navbar{
   width: 100%;
   text-align: center;
@@ -86,6 +93,13 @@ Header Styles
 .navbar ul li{
   display: inline-block;
   padding: 0 6% 0 6%;
+}
+
+@include media-query($on-xs){
+  .navbar ul li{
+    display: inline-block;
+    padding: 0 3% 0 3%;
+  }
 }
 
 #home-icon{
@@ -105,8 +119,7 @@ Header Styles
 
 @include media-query($on-palm){
   #banner{
-    padding-top: 35%;
-    padding-bottom: -35%;
+    padding-top: 15%;
   }
 }
 
@@ -151,7 +164,6 @@ MobileNav Styles
       display: block;
   }
 }
-
 
 /********
 Projects Styles
