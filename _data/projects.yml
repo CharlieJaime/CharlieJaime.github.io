@@ -1,12 +1,12 @@
 projects:
 -  title: PortableDocs
    link: https://portabledoc.herokuapp.com
-   image: img/projects/Microblog.png
+   image: img/projects/PortableDoc.png
    description: Create documents online and access them anywhere
 
 -  title: MicroBlog
    link: https://microoblog.herokuapp.com
-   image: img/projects/PortableDoc.png
+   image: img/projects/Microblog.png
    description: Write and share posts on any topic and converse in the comments
 
 -  title: ThinkComics
