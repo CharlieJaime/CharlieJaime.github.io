@@ -37,11 +37,13 @@ ul{
 .imgContainer{
   max-width: 400px;
   max-height: 500px;
-  padding-left: 5%;
+  position: relative;
+  // z-index: ;
 
   img{
     width: 100%;
     height: auto;
+    display: block;
   }
 }
 
@@ -50,6 +52,63 @@ ul{
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-direction: row;
+}
+
+.titles{
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+  // background-color: red;
+
+  h4{
+    color: white;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    font-size: 3em;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+
+.descriptions{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+
+  p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.imgContainer:hover .titles {
+  opacity: 0;
+}
+.imgContainer:hover .descriptions {
+  opacity: 1;
 }
 
 /********
@@ -193,10 +252,6 @@ MobileNav Styles
       display: block;
   }
 }
-
-/********
-Projects Styles
-********/
 
 
 /********
