@@ -34,11 +34,15 @@ ul{
   letter-spacing: 0.8px;
 }
 
+.listContainer{
+  z-index: -1;
+}
+
 .imgContainer{
   max-width: 400px;
   max-height: 500px;
   position: relative;
-  // z-index: ;
+  margin-bottom: 8%;
 
   img{
     width: 100%;
@@ -59,14 +63,13 @@ ul{
   text-align: center;
   height: 100%;
   width: 100%;
-  transition: .5s ease;
+  transition: .5s;
   transform: translate(-50%, -50%);
   top: 25%;
   left: 50%;
-  // background-color: red;
 
   h4{
-    color: white;
+    color: $lb;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 70px;
@@ -75,9 +78,8 @@ ul{
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(241, 238, 232, 0.6);
   }
 }
 
@@ -89,26 +91,28 @@ ul{
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0,0,0,0.5);
+  transition: .5s;
 
   p{
-    color: white;
-    font-size: 20px;
+    color: $db;
+    width: 90%;
+    font-size: 1.3em;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    opacity: 0;
+    transform: translate(-45%, -45%);
   }
 }
 
 .imgContainer:hover .titles {
   opacity: 0;
 }
-.imgContainer:hover .descriptions {
+.imgContainer:hover .descriptions p {
   opacity: 1;
+}
+.imgContainer:hover .descriptions {
+  background-color: rgba(241, 238, 232, 0.85);
 }
 
 /********
@@ -144,6 +148,7 @@ Header Styles
   text-align: center;
   position: fixed;
   border-bottom: 2px solid $lb;
+  z-index: 1;
 
   a{
     font-size: 1.2em;

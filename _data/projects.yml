@@ -2,24 +2,24 @@ projects:
 -  title: PortableDocs
    link: https://portabledoc.herokuapp.com
    image: img/projects/PortableDoc.png
-   description: Create documents online and access them anywhere
+   description: PortableDocs is an app in which you can create, edit, delete, and access files, whenever and wherever.
 
 -  title: MicroBlog
    link: https://microoblog.herokuapp.com
    image: img/projects/Microblog.png
-   description: Write and share posts on any topic and converse in the comments
+   description: Microblog is an community app where anyone can write and share blog posts on any topic, and converse in the comments section.
 
 -  title: ThinkComics
    link: https://thinkcomics.herokuapp.com
    image: img/projects/ThinkComics.png
-   description: Store your digital or scanned files of traditional comic book art
+   description: ThinkComics is a demo app where artists can save digital or traditional scanned comic book or concept art.
 
 -  title: Taskly
    link: https://tasklly.herokuapp.com
    image: img/projects/Taskly.png
-   description: Manage your daily tasks once you've compeleted 'em, trash'em
+   description: Taskly is an app which can be used as you agenda to manage your daily tasks once you've compeleted 'em, trash'em.
 
 -  title: CombatNews
    link: https://combatnews.herokuapp.com
    image: img/projects/combatnews.png
-   description: Post and converse about martial arts
+   description: CombatNews is an app forum to converse about all things combat.

@@ -19,16 +19,11 @@ body{
   }
 }
 
-.imgContainer{
-  border-bottom: 2px solid $lb;
-  margin-bottom: 5%;
-}
 /******
 Header colors
 ******/
 .navbar{
   background-color: rgba(241, 238, 232, 0.8);
-  // background-color: $lg;
   a:visited{
     color: $dg;
   }

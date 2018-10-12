@@ -2,24 +2,24 @@ snippets:
 -  title: Pong Game
    link: http://codepen.io/cjbeowulf/full/VjjzaO/
    image: img/projects/ponggame.png
-   description: Pong, classic game rebuild.
+   description: This pen is a rebuild of the classic arcade game known as Pong.
 
 -  title: Mystery Game
    link: http://codepen.io/cjbeowulf/full/ECkve/
    image: img/projects/mysterygame.png
-   description: Game of clickable boxes. Find the hidden spy.
+   description: This pen is a simple clickable game which you have to find the hidden spy.
 
--  title: Brick Breaker Game
+-  title: Brick Breaker
    link: http://codepen.io/cjbeowulf/full/BzPyrv
    image: img/projects/brickbreaker.png
-   description: Brick Breaker, classic game rebuild.
+   description: This pen is a rebuild of another classic arcade game known as Brick Breaker.
 
--  title: jQuery ToDo App
+-  title: ToDo App
    link: http://codepen.io/cjbeowulf/full/zwrwGY/
    image: img/projects/jQueryTodo.png
    description: Simple ToDo application using jquery and jquery user interface.
 
--  title: Toggle Switch Animations
+-  title: Toggles
    link: http://codepen.io/cjbeowulf/full/zrOmjv/
    image: img/projects/toggleswitch.png
    description: Cool toggle switch transitions and transforms using checkboxes.

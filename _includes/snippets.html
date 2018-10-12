@@ -6,9 +6,18 @@
         <a href="{{ snippet.link }}" target="_blank">
           <li>
             <div class="imgContainer">
+              <!-- Title -->
+              <div class="titles">
+                <h4>{{ snippet.title }}</h4>
+              </div>
+
+              <!-- Img -->
               <img src="{{ snippet.image }}">
-              <h4>{{ snippet.title }}</h4>
-              <p>{{ snippet.description }}</p>
+
+              <!-- Desc -->
+              <div class="descriptions">
+                <p>{{ snippet.description }}</p>
+              </div>
             </div>
           </li>
         </a>
