@@ -98,7 +98,7 @@ ul{
     width: 90%;
     font-size: 1.3em;
     position: absolute;
-    top: 40%;
+    top: 100%;
     left: 50%;
     opacity: 0;
     transform: translate(-45%, -45%);
@@ -109,10 +109,13 @@ ul{
   opacity: 0;
 }
 .imgContainer:hover .descriptions p {
+  transition-property: all;
+  transition-duration: 1s;
+  top: 40%;
   opacity: 1;
 }
 .imgContainer:hover .descriptions {
-  background-color: rgba(241, 238, 232, 0.85);
+  background-color: rgba(241, 238, 232, 0.9);
 }
 
 /********
