@@ -116,6 +116,64 @@ ul{
 }
 .imgContainer:hover .descriptions {
   background-color: rgba(241, 238, 232, 0.9);
+  border-bottom: 2px solid $lb;
+}
+
+@include media-query($on-palm){
+  .titles{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+
+    h4{
+      color: $lb;
+      width: 100%;
+      padding-top: 85px;
+      padding-bottom: 86px;
+      font-size: 2.5em;
+      position: absolute;
+      top: 52.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: rgba(241, 238, 232, 0.6);
+    }
+  }
+}
+@include media-query($on-xs){
+  .imgContainer{
+    margin-bottom: 10%;
+  }
+
+  .titles{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+
+    h4{
+      color: $lb;
+      width: 100%;
+      padding-top: 130px;
+      padding-bottom: 70px;
+      font-size: 1.8em;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      // background-color: rgba(241, 238, 232, 0.6);
+    }
+  }
 }
 
 /********
