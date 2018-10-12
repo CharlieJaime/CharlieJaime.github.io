@@ -17,14 +17,14 @@ snippets:
 -  title: ToDo App
    link: http://codepen.io/cjbeowulf/full/zwrwGY/
    image: img/projects/jQueryTodo.png
-   description: Simple ToDo application using jquery and jquery user interface.
+   description: This pen is a small To-Do app to manage you weekly tasks.
 
 -  title: Toggles
    link: http://codepen.io/cjbeowulf/full/zrOmjv/
    image: img/projects/toggleswitch.png
-   description: Cool toggle switch transitions and transforms using checkboxes.
+   description: This pen is different variations of toggle switches created with checkboxes, transitions and transforms.
 
 -  title: Earth's Orbit
    link: http://codepen.io/cjbeowulf/full/gWPMpq/
    image: img/projects/planetOrbit.png
-   description: Fun continuious animations of earth orbiting aroud the sun.
+   description: This pen is a fun continuious animation of our solar system.
