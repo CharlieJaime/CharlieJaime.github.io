@@ -24,6 +24,9 @@ Header colors
 ******/
 .navbar{
   background-color: rgba(241, 238, 232, 0.8);
+  a{
+    color: $dg;
+  }
   a:visited{
     color: $dg;
   }
