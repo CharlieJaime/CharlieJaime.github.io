@@ -30,7 +30,7 @@ disqus:
 # Build settings
 markdown: kramdown
 permalink: /:title
-theme: minima
+theme: jekyll-theme-tactile
 google_analytics: UA-NNNNNNNN-N
 show_excerpts: true
 
