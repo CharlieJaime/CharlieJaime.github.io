@@ -18,8 +18,8 @@ HTML or HyperText Markup Language has to maintain three main purposes in mind. O
 
 {% highlight ruby %}
 	<h1>—-Header--</h1>
-<p>—paragraph content</p>
-<img src “#”/>
+	<p>—paragraph content</p>
+	<img src “#”/>
 {% endhighlight %}
 
 Lastly and most importantly, turning simple plain text into HyperText. In other words, “clickable” or changeable text, more commonly used to create text to links.
