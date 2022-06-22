@@ -34,8 +34,10 @@ ul{
   letter-spacing: 0.8px;
 }
 
-.listContainer{
-  z-index: -1;
+#aboutContainer,
+#postsContainer{
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .imgContainer{
@@ -43,11 +45,13 @@ ul{
   max-height: 500px;
   position: relative;
   margin-bottom: 8%;
+  border-radius: 2%;
 
   img{
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 2%;
   }
 }
 
@@ -55,7 +59,7 @@ ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-direction: row;
+  // flex-direction: row;
 }
 
 .titles{
@@ -79,7 +83,7 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(241, 238, 232, 0.6);
+    // background-color: rgba(241, 238, 232, 0.6);
   }
 }
 
@@ -141,7 +145,7 @@ ul{
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      background-color: rgba(241, 238, 232, 0.6);
+      // background-color: rgba(241, 238, 232, 0.6);
     }
   }
 }
