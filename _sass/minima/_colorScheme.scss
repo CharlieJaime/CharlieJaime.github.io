@@ -23,20 +23,20 @@ body{
 Header colors
 ******/
 .navbar{
-  background-color: rgba(241, 238, 232, 0.8);
+  // background-color: rgba(241, 238, 232, 0.8);
   a{
-    color: $dg;
+    color: black;
   }
   a:visited{
-    color: $dg;
+    color: white;
   }
   a:hover{
-    color: $lb;
+    color: whitesmoke;
   }
 }
 
 #banner{
-  color: $lb;
+  color: black;
 }
 
 @include media-query($on-palm){

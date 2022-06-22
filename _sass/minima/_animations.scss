@@ -9,7 +9,7 @@
 }
 
 @-webkit-keyframes slidedown {
-    100% { top: 0; }
+    100% { top: 150px; }
 }
 
 #banner{
@@ -18,5 +18,5 @@
 }
 
 #banner{
-  -webkit-animation: slidedown 2.5s 2s forwards;
+  -webkit-animation: slidedown 1.5s forwards;
 }
