@@ -199,8 +199,9 @@ Header Styles
 @include media-query($on-palm){
   #homeContainer{
     height: 100vh;
-    background-image: none;
+    background-image: none; 
     background-size: none;
+    background-color: #D99982;
   }
 }
 
@@ -208,7 +209,7 @@ Header Styles
   width: 100%;
   text-align: center;
   position: fixed;
-  border-bottom: 2px solid $lb;
+  // border-bottom: 2px solid $lb;
   z-index: 1;
 
   a{

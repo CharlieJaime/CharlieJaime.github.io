@@ -2,7 +2,7 @@
 General colors
 ******/
 body{
-  color: $dg;
+  color: black;
 }
 
 #projectsContainer,
@@ -28,10 +28,10 @@ Header colors
     color: black;
   }
   a:visited{
-    color: white;
+    color: black;
   }
   a:hover{
-    color: whitesmoke;
+    color: #A6775B;
   }
 }
 
@@ -41,7 +41,7 @@ Header colors
 
 @include media-query($on-palm){
   #banner{
-    color: $dg;
+    color: black;
   }
 }
 
