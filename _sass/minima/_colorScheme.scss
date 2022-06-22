@@ -9,13 +9,13 @@ body{
 #snippetsContainer,
 #postsContainer{
   a{
-    color: $dg;
+    color: #A6775B;
   }
   a:visited{
     color: $dg;
   }
   a:hover{
-    color: $lb;
+    color: darken($db, 10%);
   }
 }
 
@@ -25,10 +25,10 @@ Header colors
 .navbar{
   // background-color: rgba(241, 238, 232, 0.8);
   a{
-    color: black;
+    color: whitesmoke;
   }
   a:visited{
-    color: black;
+    color: white smoke;
   }
   a:hover{
     color: #A6775B;
@@ -36,7 +36,7 @@ Header colors
 }
 
 #banner{
-  color: black;
+  color: whitesmoke;
 }
 
 @include media-query($on-palm){
@@ -49,17 +49,17 @@ Header colors
 Snippets colors
 ******/
 button{
-  background-color: $lb;
+  background-color: #A6775B;
   color: white;
 }
 
 button:hover{
-  background-color: $db;
+  background-color: darken($db, 10%);
 }
 
 /******
 Posts colors
 ******/
 .post-list p{
-  color: $mg;
+  color: black;
 }

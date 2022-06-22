@@ -11,10 +11,20 @@ ul{
 
 #projectsContainer,
 #snippetsContainer,
-#aboutContainer,
 #postsContainer{
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 15%;
+}
+
+#aboutContainer{
+  padding-top: 20%;
+}
+
+#postsContainer{
+  padding-bottom: 5%;
+}
+
+#footerContainer{
+  padding: 20px;
 }
 
 @include media-query($on-palm){
@@ -98,7 +108,7 @@ ul{
   transition: .5s;
 
   p{
-    color: $db;
+    color: #A6775B;
     width: 90%;
     font-size: 1.3em;
     position: absolute;
@@ -117,6 +127,7 @@ ul{
   transition-duration: 1s;
   top: 40%;
   opacity: 1;
+  color: darken($db, 10%);
 }
 .imgContainer:hover .descriptions {
   background-color: rgba(241, 238, 232, 0.9);
@@ -186,7 +197,7 @@ Header Styles
 #homeContainer{
   height: 100vh;
   text-align: center;
-  background-image: url('/img/site/lamp.jpg');
+  background-image: url('/img/site/bulb.jpg');
   background-size: cover;
 
   h1{
@@ -205,7 +216,7 @@ Header Styles
     height: 100vh;
     background-image: none; 
     background-size: none;
-    background-color: #D99982;
+    background-color: #A6775B;
   }
 }
 
@@ -213,7 +224,8 @@ Header Styles
   width: 100%;
   text-align: center;
   position: fixed;
-  // border-bottom: 2px solid $lb;
+  border-bottom: 2px solid #A6775B;
+  background-color: rgba(black, 0.8);
   z-index: 1;
 
   a{
@@ -361,7 +373,7 @@ About Styles
       height: 60px;
 
     path{
-      fill: $lb;
+      fill: #A6775B;
     }
   }
 
@@ -378,7 +390,7 @@ About Styles
         transform: scale(1.05);
         transition-property: all;
         transition-duration: 1s;
-        background-color: $db;
+        background-color: darken($db, 10%);
         border-radius: 20%;
 
         path {
@@ -397,7 +409,7 @@ Posts Styles
 ********/
 #innerPostsContainer{
   overflow: scroll;
-  height: 500px;
+  height: 600px;
   border-bottom: 2px solid $lb;
 }
 
@@ -470,7 +482,7 @@ Footer Styles
         height: 50px;
 
         path {
-            fill: $lb;
+            fill: #A6775B;
         }
     }
 
