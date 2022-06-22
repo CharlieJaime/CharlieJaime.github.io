@@ -9,6 +9,12 @@ ul{
   list-style: none;
 }
 
+.sectionTitle{
+  // text-align: center;
+  color: darken($db, 10%);
+  font-size: 3em;
+}
+
 #projectsContainer,
 #snippetsContainer,
 #postsContainer{
@@ -46,7 +52,7 @@ ul{
 
 #aboutContainer,
 #postsContainer{
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -56,12 +62,14 @@ ul{
   position: relative;
   margin-bottom: 8%;
   border-radius: 2%;
+  background-color: #A6775B;
 
   img{
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 2%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px $mg;
   }
 }
 
@@ -83,7 +91,7 @@ ul{
   left: 50%;
 
   h4{
-    color: $lb;
+    color: black;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 70px;
@@ -93,7 +101,6 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    // background-color: rgba(241, 238, 232, 0.6);
   }
 }
 
@@ -108,7 +115,7 @@ ul{
   transition: .5s;
 
   p{
-    color: #A6775B;
+    color: black;
     width: 90%;
     font-size: 1.3em;
     position: absolute;
@@ -127,7 +134,7 @@ ul{
   transition-duration: 1s;
   top: 40%;
   opacity: 1;
-  color: darken($db, 10%);
+  color:black;
 }
 .imgContainer:hover .descriptions {
   background-color: rgba(241, 238, 232, 0.9);
@@ -258,6 +265,57 @@ Header Styles
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+// ? Test typing css
+// TODO Understand how this code was created in Codepen
+:root {
+  --bg-color: #261F1C;
+  --typewriterSpeed: 6s;
+  --typewriterCharacters: 19;
+}
+
+#cursor {
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  width: max-content;
+}
+
+#cursor::before,
+#cursor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#cursor::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+#cursor::after {
+  width: 0.125em;
+  background: whitesmoke;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
 }
 
 hr{display: none;}
