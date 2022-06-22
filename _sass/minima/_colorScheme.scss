@@ -36,7 +36,7 @@ Header colors
 }
 
 #banner{
-  color: white;
+  color: $lb;
 }
 
 @include media-query($on-palm){
