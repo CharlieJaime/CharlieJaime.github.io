@@ -59,16 +59,15 @@ ul{
 .imgContainer{
   max-width: 400px;
   max-height: 500px;
+  border-radius: 100%;
   position: relative;
   margin-bottom: 8%;
-  border-radius: 2%;
-  background-color: #A6775B;
 
   img{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    border-radius: 5%;
+    border-radius: 100%;
     box-shadow: 10px 10px 5px $mg;
   }
 }
