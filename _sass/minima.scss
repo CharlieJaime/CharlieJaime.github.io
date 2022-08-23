@@ -53,11 +53,13 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
-
+// "minima/layout",
 // Import partials.
 @import
   "minima/normalize",
   "minima/base",
   "minima/layout",
   "minima/colorScheme",
-  "minima/animations";
+  "minima/animations",
+  "minima/slides";
+

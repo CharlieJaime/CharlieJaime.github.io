@@ -1,31 +1,10 @@
-<main id="snippetsContainer">
-  <div class="listContainer">
-    <h2 class="sectionTitle">SNIPPETS</h2>
-    <ul class="data-listing">
-      {% for snippet in site.data.snippets.snippets %}
-        <a href="{{ snippet.link }}" target="_blank">
-          <li>
-            <div class="imgContainer">
-              <!-- Title -->
-              <div class="titles">
-                <!-- {{ snippet.title }} -->
-                <h4></h4>
-              </div>
-
-              <!-- Img -->
-              <img src="{{ snippet.image }}">
-
-              <!-- Desc -->
-              <div class="descriptions">
-                <p>{{ snippet.description }}</p>
-              </div>
+<div class="spcontainer">
+    {% for snippet in site.data.snippets.snippets %}
+        <div class="contain" style="background-image: url('{{snippet.image}}')">
+            <div class="panel active">
+                <h4>{{snippet.title}}</h4>
+                <!-- <p>{{snippet.description}}</p> -->
             </div>
-          </li>
-        </a>
-      {% endfor %}
-    </ul>
-    <div id="seeMore">
-      <a href="https://codepen.io/charliejaime" target="_blank"><button type="Sumbit">See More</button></a>
-    </div>
-  </div>
-</main>
+        </div>
+    {% endfor %}
+</div>
