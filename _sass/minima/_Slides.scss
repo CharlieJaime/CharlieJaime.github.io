@@ -1,5 +1,8 @@
-.spcontainer{    
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
+}
+
+.spcontainer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -19,6 +22,7 @@
 	background-repeat: none;
 	height: 80vh;
 	border-radius: 50px;
+	color: #fff;
 	cursor: pointer;
 	flex: 0.5;
 	margin: 10px;
