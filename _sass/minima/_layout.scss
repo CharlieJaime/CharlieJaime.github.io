@@ -1,9 +1,6 @@
 /********
 General Styles
 ********/
-*{
-  box-sizing: border-box; 
-}
 
 a{
   text-decoration: none;
@@ -270,6 +267,14 @@ button{
 /********
 About Styles
 ********/
+#aboutContent{
+  text-align: center;
+  img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }  
+}
 #socialContainer{
  text-align: center;
 }
