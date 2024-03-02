@@ -267,19 +267,30 @@ button{
 /********
 About Styles
 ********/
-#aboutContent{
-  text-align: center;
+#aboutContainer{
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
   img{
-    height: 150px;
-    width: 150px;
+    flex-grow: 1;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
   }  
 }
+#aboutContent{
+  flex-grow: 4;
+  text-align: justify;
+}
 #socialContainer{
- text-align: center;
+  flex-grow: 2;
+//  text-align: center;
 }
 
 #socialList li{
+  flex-grow: 2;
   display: inline-block;
   padding: 5%;
   text-align: center;
